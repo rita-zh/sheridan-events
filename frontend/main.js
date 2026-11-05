@@ -1,9 +1,5 @@
-// Where the backend runs. When the backend serves this page (http://localhost:3000)
-// the API is on the same address, so no prefix is needed. When the page is opened
-// as a file or through VS Code Live Server (port 5500), point at the backend.
-const API_BASE = "http://localhost:3000";
+const API_BASE = "https://sheridan-events.onrender.com";
 
-// Which endpoint each view button uses
 const VIEW_ENDPOINTS = {
   all: () => "/api/events",
   today: () => "/api/events/today",
@@ -410,7 +406,8 @@ function renderWeek(weekEvents) {
   track.scrollLeft = 0;
 
   // Only loop (and show arrows) when the cards don't already fit on screen
-  const overflowing = sorted.length && track.scrollWidth > track.clientWidth + 1;
+  const overflowing =
+    sorted.length && track.scrollWidth > track.clientWidth + 1;
   $("week-prev").hidden = $("week-next").hidden = !overflowing;
   track.classList.toggle("draggable", Boolean(overflowing));
   if (overflowing) {
@@ -488,7 +485,14 @@ function startCarousel(track, count) {
   track.onpointerdown = (e) => {
     if (e.pointerType !== "mouse" || e.button !== 0) return;
     motion = null;
-    drag = { x: e.clientX, from: position, moved: false, lastX: e.clientX, lastT: e.timeStamp, velocity: 0 };
+    drag = {
+      x: e.clientX,
+      from: position,
+      moved: false,
+      lastX: e.clientX,
+      lastT: e.timeStamp,
+      velocity: 0,
+    };
   };
   track.onpointermove = (e) => {
     if (!drag) return;
@@ -525,7 +529,11 @@ function startCarousel(track, count) {
   // Arrow buttons: glide one card over
   const glide = (direction) => {
     const from = position;
-    motion = { from, to: from + direction * cardStep(), start: performance.now() };
+    motion = {
+      from,
+      to: from + direction * cardStep(),
+      start: performance.now(),
+    };
     hold(3000);
   };
   $("week-prev").onclick = () => glide(-1);
@@ -542,7 +550,9 @@ function startCarousel(track, count) {
       const t = Math.min(1, (now - motion.start) / 400);
       const ease = 1 - Math.pow(1 - t, 3);
       // Glide from the starting point; wrap() keeps it inside the loop
-      track.scrollLeft = position = wrap(motion.from + (motion.to - motion.from) * ease);
+      track.scrollLeft = position = wrap(
+        motion.from + (motion.to - motion.from) * ease
+      );
       if (t === 1) motion = null;
     } else if (
       drift &&
@@ -939,7 +949,6 @@ $("views").addEventListener("click", (e) => {
 for (const id of ["organizer", "campus", "time", "tag-filter"]) {
   $(id).addEventListener("change", loadEvents);
 }
-
 
 document.addEventListener("click", (e) => {
   const details = e.target.closest("[data-details]");

@@ -1,7 +1,7 @@
 {
   "source": "https://www.sheridancollege.ca/events",
-  "scraped_at": "2026-10-13T01:38:46.721834+00:00",
-  "count": 6,
+  "scraped_at": "2026-10-16T09:55:55.490558+00:00",
+  "count": 5,
   "events": [
     {
       "title": "Navigating OSAP: Your Guide to Applying for Financial Aid",
@@ -50,51 +50,9 @@
       "venue": "Online"
     },
     {
-      "title": "Peel Postsecondary Pathways Exploration Event",
-      "url": "https://www.sheridancollege.ca/events/2026/10/peel-postsecondary-pathways-exploration-event",
-      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/background-images/about-sheridan_background-header.jpg?rev=e7845ab8e82248a4bd1b2fe31edc7a11&extension=webp&w=1024&hash=0FD21340CBE65D4C82A988BDEF3CFA73",
-      "list_date_box": {
-        "month": "Oct",
-        "day": "14"
-      },
-      "excerpt": "Explore your options after high school—all in one place. Grade 12 and 12+ students from across Peel Region and their families are invited to Sheridan College’s Davis Campus for the Peel Postsecondary …",
-      "last_occurrence_ends_at": "2026-10-15T00:30:00+00:00",
-      "occurrences": [
-        {
-          "date": "2026-10-14",
-          "date_text": "Wednesday, October 14, 2026",
-          "time_12h": "5:00 PM",
-          "time_24h": "17:00"
-        }
-      ],
-      "address": {
-        "venue": "Davis Campus",
-        "lines": [
-          "Davis Campus",
-          "7899 McLaughlin Road",
-          "Brampton"
-        ],
-        "map_url": "http://maps.google.com?q=Davis Campus, 7899 McLaughlin Road, Brampton"
-      },
-      "categories": [
-        "Admissions"
-      ],
-      "tags": [
-        "Davis Campus"
-      ],
-      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Peel%20Postsecondary%20Pathways%20Exploration%20Event&dates=20261014T210000Z/20261015T003000Z&location=Davis%20Campus%2C%207899%20McLaughlin%20Road%2C%20Brampton",
-      "ics_url": null,
-      "description": "Explore your options after high school—all in one place. Grade 12 and 12+ students from across Peel Region and their families are invited to Sheridan College’s Davis Campus for the Peel Postsecondary Exploration Event.\nConnect with representatives from a range of institutions and organizations, ask questions and learn more about:\nApprenticeship and skilled trades\nCollege\nUniversity\nCommunity and other postsecondary pathways\nEmployment and work-based pathways\nWhether you’re comparing several pathways or looking for a clearer sense of what comes next, this event can help you gather useful information and make a more informed decision.\nRegistration is required, and capacity is limited. To help ensure the broadest possible access for PDSB families, please register only one parent or guardian and their Grade 12 or 12+ student(s) for one block.\nSpaces are limited, so reserve your spot as soon as possible.\nDate: Oct 14, 2026 Time: 5:00 p.m. – 8.30 p.m. Location: Davis Campus, 7899 McLaughlin Road, Brampton\nThe pathways fair will take place in the Student center (DEN/SSU). Parking for the event will be available in Lot 4,5 and 6. View campus map .\nNote : Guests are welcome to arrive at any time between 5:00 p.m. and 8:30 p.m.\nThe following institutions and organizations will be represented at the event. Exhibitors will continue to be announced – please stay tuned to this page for updates.\nAlgonquin College\nBoréal\nBrampton Fire & Emergency Services\nBrock University\nCarleton University\nCentennial College\nCentre for Skills Development\nConfederation College\nConestoga College\nDiscover Year\nDurham College\nEikonic Academy\nFanshawe College\nFleming College\nGeorge Brown Polytechnic\nGeorgian College\nHumber Polytechnic\nHuron University\nKing’s at Western University\nLakehead University\nLoyalist College\nMcMaster University\nMohawk College\nNiagara College\nOCAD University\nOntario Tech University\nONTransfer by ONCAT\nPaladin Security\nSault College\nSeneca Polytechnic\nSt. Clair College\nSt. Jerome’s University (University of Waterloo)\nThe Michener Institute of Education at UHN\nToronto Metropolitan University\nUniversity of Guelph\nUniversity of Guelph-Humber\nUniversity of Niagara Falls Canada\nUniversity of Ottawa\nUniversity of Toronto\nUniversity of Waterloo\nUniversity of Windsor\nWestern University\nWilfrid Laurier University\nYork University",
-      "is_online": false,
-      "month": "Oct",
-      "day": "14",
-      "time": "5:00 PM",
-      "venue": "Davis Campus"
-    },
-    {
       "title": "TD Insurance Webinar: Essential Steps to Start Investing",
       "url": "https://www.sheridancollege.ca/events/2026/11/td-essential-steps",
-      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/events/2026/11/td-webinars/steps-to-investing-720x300.jpg?w=100%25&rev=4ea0812607e944e483c2cce16f317f7e&hash=8C2A3674666174F185771E9FBE785C37",
+      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/events/2026/11/td-webinars/steps-to-investing-720x300.jpg?w=100%25&rev=4ea0812607e944e483c2cce16f317f7e&extension=webp&hash=7310DB6B3420B5CFF12F39FB74C7516F",
       "list_date_box": {
         "month": "Nov",
         "day": "6"
@@ -165,7 +123,9 @@
         ],
         "map_url": "http://maps.google.com?q=Davis Campus, Trafalgar Campus, Hazel McCallion Campus"
       },
-      "categories": [],
+      "categories": [
+        "Alumni"
+      ],
       "tags": [
         "Davis Campus",
         "Trafalgar Campus",

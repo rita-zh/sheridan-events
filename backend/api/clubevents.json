@@ -1,155 +1,8 @@
 {
   "source": "https://sheridancollege.campuslabs.ca/engage/events",
-  "scraped_at": "2026-10-13T01:21:17.621460+00:00",
-  "count": 10,
+  "scraped_at": "2026-10-16T09:54:44.615681+00:00",
+  "count": 9,
   "events": [
-    {
-      "title": "The Annual Marketing Mixer",
-      "url": "https://sheridancollege.campuslabs.ca/engage/event/334680",
-      "image_url": "https://se-images.campuslabs.ca/clink/images/ef8dcfc1-c33e-440f-9af1-fdd95fc18a21c87fcc93-6626-48f0-8499-c8970e937c84.png",
-      "list_date_box": {
-        "month": "Oct",
-        "day": "14"
-      },
-      "excerpt": "Once a year. One night. A look at what comes after graduation.\nJoin Sheridan Marketing Society for The Annual Marketing Mixer … a night to hear what life in marketing actually looks like beyond the cl…",
-      "last_occurrence_ends_at": "2026-10-15T00:00:00+00:00",
-      "occurrences": [
-        {
-          "date": "2026-10-14",
-          "date_text": "Wednesday, October 14, 2026",
-          "time_12h": "6:00 PM",
-          "time_24h": "18:00"
-        }
-      ],
-      "address": {
-        "venue": "Sheridan College",
-        "lines": [
-          "Sheridan College",
-          "4180 Duke of York Blvd, Mississauga, ON L5B 0H7"
-        ],
-        "map_url": "http://maps.google.com?q=4180 Duke of York Blvd, Mississauga, ON L5B 0H7"
-      },
-      "categories": [
-        "Group Business"
-      ],
-      "tags": [
-        "Sheridan Marketing Society (HMC)"
-      ],
-      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=The%20Annual%20Marketing%20Mixer&dates=20261014T220000Z/20261015T000000Z&location=Sheridan%20College%2C%204180%20Duke%20of%20York%20Blvd%2C%20Mississauga%2C%20ON%20L5B%200H7",
-      "ics_url": null,
-      "description": "Once a year. One night. A look at what comes after graduation.\nJoin Sheridan Marketing Society for The Annual Marketing Mixer … a night to hear what life in marketing actually looks like beyond the classroom.\nWe’ll be talking about starting your marketing career, networking, work-life balance, creating your own opportunities, and everything in between.\nMarketing Career Reality Check Hear from marketing professionals and alumni about their experiences, lessons, and what they wish they knew when they were starting out.\nConnect & Network Meet alumni, industry professionals, and fellow marketing students from different areas of the field.\n☕ Refreshments provided\n📅 October 14, 2026, 6:00-8:00 PM, Room A145, HMC Campus 📍 Sheridan College\nWhether you’re just starting your marketing degree or already thinking about what comes next, this is a night to meet people, ask questions, and get a real look at what’s ahead.\nThe conversation starts here.",
-      "engage_id": "334680",
-      "organizations": [
-        "Sheridan Marketing Society (HMC)"
-      ],
-      "rsvp_total": 2,
-      "month": "Oct",
-      "day": "14",
-      "time": "6:00 PM",
-      "venue": "Sheridan College"
-    },
-    {
-      "title": "mixtape mixer",
-      "url": "https://sheridancollege.campuslabs.ca/engage/event/335320",
-      "image_url": "https://static.campuslabsengage.com/discovery/images/events/artsandmusic.jpg",
-      "list_date_box": {
-        "month": "Oct",
-        "day": "15"
-      },
-      "excerpt": "Join the Friendzone for an evening of sharing music meet people who like the same musicians as you and share your favorite songs, there could be dancing and karaoke in the cards everyone is welcome.",
-      "last_occurrence_ends_at": "2026-10-15T23:00:00+00:00",
-      "occurrences": [
-        {
-          "date": "2026-10-15",
-          "date_text": "Thursday, October 15, 2026",
-          "time_12h": "5:00 PM",
-          "time_24h": "17:00"
-        }
-      ],
-      "address": {
-        "venue": "HMC Clubs room C202",
-        "lines": [
-          "HMC Clubs room C202",
-          "Duke of York blvd, Mississauga , on"
-        ],
-        "map_url": "http://maps.google.com?q=Duke of York blvd, Mississauga , on"
-      },
-      "categories": [
-        "Social",
-        "Arts"
-      ],
-      "tags": [
-        "Free Food",
-        "The Friend Zone (HMC)"
-      ],
-      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=mixtape%20mixer&dates=20261015T210000Z/20261015T230000Z&location=HMC%20Clubs%20room%20C202%2C%20Duke%20of%20York%20blvd%2C%20Mississauga%20%2C%20on",
-      "ics_url": null,
-      "description": "Join the Friendzone for an evening of sharing music meet people who like the same musicians as you and share your favorite songs, there could be dancing and karaoke in the cards everyone is welcome.",
-      "engage_id": "335320",
-      "organizations": [
-        "The Friend Zone (HMC)"
-      ],
-      "rsvp_total": 2,
-      "month": "Oct",
-      "day": "15",
-      "time": "5:00 PM",
-      "venue": "HMC Clubs room C202"
-    },
-    {
-      "title": "Sip & Study",
-      "url": "https://sheridancollege.campuslabs.ca/engage/event/335319",
-      "image_url": "https://static.campuslabsengage.com/discovery/images/events/social.jpg",
-      "list_date_box": {
-        "month": "Oct",
-        "day": "15"
-      },
-      "excerpt": "This will be a relaxed, cozy study event where we bring people together in a comfortable space with ambient lighting, faux candles, a fireplace setup, and soft jazz playing in the background. The goal…",
-      "last_occurrence_ends_at": "2026-10-16T02:00:00+00:00",
-      "occurrences": [
-        {
-          "date": "2026-10-15",
-          "date_text": "Thursday, October 15, 2026",
-          "time_12h": "5:00 PM",
-          "time_24h": "17:00"
-        }
-      ],
-      "address": {
-        "venue": "Sheridan College Trafalgar Campus",
-        "lines": [
-          "Sheridan College Trafalgar Campus",
-          "1430 Trafalgar Road"
-        ],
-        "map_url": "http://maps.google.com?q=1430 Trafalgar Road"
-      },
-      "categories": [
-        "Social"
-      ],
-      "tags": [
-        "Free Food",
-        "Free Stuff",
-        "Sheridan Anime Club (All Campuses)",
-        "Tea & Garden Club (TRC)",
-        "Sheridan TechBiz Society (Trafalgar)",
-        "Launchpad (HMC)",
-        "Maker Lounge (Trafalgar)"
-      ],
-      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Sip%20%26%20Study&dates=20261015T210000Z/20261016T020000Z&location=Sheridan%20College%20Trafalgar%20Campus%2C%201430%20Trafalgar%20Road",
-      "ics_url": null,
-      "description": "This will be a relaxed, cozy study event where we bring people together in a comfortable space with ambient lighting, faux candles, a fireplace setup, and soft jazz playing in the background. The goal is to create a calm, café-inspired atmosphere where everyone can focus and study. in room 219 and 223",
-      "engage_id": "335319",
-      "organizations": [
-        "Sheridan Anime Club (All Campuses)",
-        "Tea & Garden Club (TRC)",
-        "Sheridan TechBiz Society (Trafalgar)",
-        "Launchpad (HMC)",
-        "Maker Lounge (Trafalgar)"
-      ],
-      "rsvp_total": 7,
-      "month": "Oct",
-      "day": "15",
-      "time": "5:00 PM",
-      "venue": "Sheridan College Trafalgar Campus"
-    },
     {
       "title": "Anijam Screening",
       "url": "https://sheridancollege.campuslabs.ca/engage/event/334720",
@@ -241,6 +94,94 @@
       "venue": "S235 Movie Room"
     },
     {
+      "title": "Halloween Caricature Night!",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/335904",
+      "image_url": "https://static.campuslabsengage.com/discovery/images/events/social.jpg",
+      "list_date_box": {
+        "month": "Oct",
+        "day": "22"
+      },
+      "excerpt": "Costumes encouraged !! Come draw your peers in costume and enjoy some social time with friends!",
+      "last_occurrence_ends_at": "2026-10-22T23:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-10-22",
+          "date_text": "Thursday, October 22, 2026",
+          "time_12h": "5:00 PM",
+          "time_24h": "17:00"
+        }
+      ],
+      "address": {
+        "venue": "Room G206",
+        "lines": [
+          "Room G206"
+        ],
+        "map_url": "http://maps.google.com?q=Room G206"
+      },
+      "categories": [
+        "Social"
+      ],
+      "tags": [
+        "Diversity in Animation: WIA Sheridan (Trafalgar)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Halloween%20Caricature%20Night%21&dates=20261022T210000Z/20261022T230000Z&location=Room%20G206",
+      "ics_url": null,
+      "description": "Costumes encouraged !! Come draw your peers in costume and enjoy some social time with friends!",
+      "engage_id": "335904",
+      "organizations": [
+        "Diversity in Animation: WIA Sheridan (Trafalgar)"
+      ],
+      "rsvp_total": 0,
+      "month": "Oct",
+      "day": "22",
+      "time": "5:00 PM",
+      "venue": "Room G206"
+    },
+    {
+      "title": "Halloween Caricature Night!",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/335903",
+      "image_url": "https://static.campuslabsengage.com/discovery/images/events/social.jpg",
+      "list_date_box": {
+        "month": "Oct",
+        "day": "22"
+      },
+      "excerpt": "Costumes encouraged !! Come draw your peers in costume and enjoy some social time with friends!",
+      "last_occurrence_ends_at": "2026-10-22T23:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-10-22",
+          "date_text": "Thursday, October 22, 2026",
+          "time_12h": "5:00 PM",
+          "time_24h": "17:00"
+        }
+      ],
+      "address": {
+        "venue": "Room G206",
+        "lines": [
+          "Room G206"
+        ],
+        "map_url": "http://maps.google.com?q=Room G206"
+      },
+      "categories": [
+        "Social"
+      ],
+      "tags": [
+        "Diversity in Animation: WIA Sheridan (Trafalgar)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Halloween%20Caricature%20Night%21&dates=20261022T210000Z/20261022T230000Z&location=Room%20G206",
+      "ics_url": null,
+      "description": "Costumes encouraged !! Come draw your peers in costume and enjoy some social time with friends!",
+      "engage_id": "335903",
+      "organizations": [
+        "Diversity in Animation: WIA Sheridan (Trafalgar)"
+      ],
+      "rsvp_total": 0,
+      "month": "Oct",
+      "day": "22",
+      "time": "5:00 PM",
+      "venue": "Room G206"
+    },
+    {
       "title": "Spooktacular Halloween Event",
       "url": "https://sheridancollege.campuslabs.ca/engage/event/335511",
       "image_url": "https://se-images.campuslabs.ca/clink/images/fa0efde6-f4c7-4c2a-a645-0fa7eb3727a060bf80e9-6f70-4f75-9625-ad939c204eb7.png",
@@ -282,7 +223,7 @@
       "organizations": [
         "Sheridan Filipino Student Association (Trafalgar)"
       ],
-      "rsvp_total": 3,
+      "rsvp_total": 4,
       "month": "Oct",
       "day": "23",
       "time": "6:00 PM",
@@ -338,7 +279,7 @@
         "Sheridan TechBiz Society (Trafalgar)",
         "Women in Business and Technology (TRC)"
       ],
-      "rsvp_total": 6,
+      "rsvp_total": 7,
       "month": "Oct",
       "day": "23",
       "time": "7:00 PM",
@@ -386,7 +327,7 @@
       "organizations": [
         "PixelPerfect (Trafalgar)"
       ],
-      "rsvp_total": 1,
+      "rsvp_total": 2,
       "month": "Oct",
       "day": "1",
       "time": "12:00 AM",
@@ -431,7 +372,7 @@
       "organizations": [
         "Diversity in Animation: WIA Sheridan (Trafalgar)"
       ],
-      "rsvp_total": 0,
+      "rsvp_total": 1,
       "month": "Nov",
       "day": "4",
       "time": "7:00 PM",
@@ -486,7 +427,7 @@
         "Sheridan TechBiz Society (Trafalgar)",
         "Women in Business and Technology (TRC)"
       ],
-      "rsvp_total": 4,
+      "rsvp_total": 5,
       "month": "Nov",
       "day": "7",
       "time": "8:00 AM",

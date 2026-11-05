@@ -1,7 +1,7 @@
 {
   "source": "https://www.eventbrite.ca/o/edge-13162231152",
-  "scraped_at": "2026-10-13T01:18:09.408286+00:00",
-  "count": 3,
+  "scraped_at": "2026-10-16T09:50:50.984532+00:00",
+  "count": 2,
   "events": [
     {
       "title": "Thrive -  Sheridan EDGE's Signature Entrepreneurship Program (Fall'26)",
@@ -49,55 +49,9 @@
       "venue": "Online"
     },
     {
-      "title": "Ask EDGE Mentor Pop-up Session",
-      "url": "https://www.eventbrite.ca/e/ask-edge-mentor-pop-up-session-tickets-2001895571544",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194734941%2F205732746396%2F1%2Foriginal.20260930-155624?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=22c8ce6f224bea8d95ccd079c8008617",
-      "list_date_box": {
-        "month": "Oct",
-        "day": "14"
-      },
-      "excerpt": "Connect 1:1 with an industry mentor for individualized guidance and support",
-      "last_occurrence_ends_at": "2026-10-14T19:00:00+00:00",
-      "occurrences": [
-        {
-          "date": "2026-10-14",
-          "date_text": "Wednesday, October 14, 2026",
-          "time_12h": "11:00 AM",
-          "time_24h": "11:00"
-        }
-      ],
-      "address": {
-        "venue": "EDGE Hub, Davis Campus, Room H153",
-        "lines": [
-          "EDGE Hub, Davis Campus, Room H153",
-          "EDGE Hub, Room H153, Sheridan College Davis Campus, 7899 McLaughlin Rd, Brampton, ON L6Y 5H9"
-        ],
-        "map_url": "http://maps.google.com?q=EDGE Hub, Room H153, Sheridan College Davis Campus, 7899 McLaughlin Rd, Brampton, ON L6Y 5H9"
-      },
-      "categories": [
-        "FREE"
-      ],
-      "tags": [
-        "Brampton seminars",
-        "Brampton Business seminars"
-      ],
-      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Ask%20EDGE%20Mentor%20Pop-up%20Session&dates=20261014T150000Z/20261014T190000Z&location=EDGE%20Hub%2C%20Davis%20Campus%2C%20Room%20H153%2C%20EDGE%20Hub%2C%20Room%20H153%2C%20Sheridan%20College%20Davis%20Campus%2C%207899%20McLaughlin%20Rd%2C%20Brampton%2C%20ON%20L6Y%205H9",
-      "ics_url": null,
-      "description": "Connect 1:1 with an industry mentor for individualized guidance and support\nJoin us at the Ask EDGE Mentor Pop-up Session and connect one-on-one with an experienced mentor who’s here to support your entrepreneurship journey.\nOur mentor will help you level up in whatever stage you’re at — from exploring entrepreneurship to refining your business model or scaling your venture. You’ll get personalized guidance tailored to your specific level of support, including learning and development, career readiness, idea development, business planning, and growth strategies.This is your space to ask questions, get guidance, and start building something that matters to you. No experience needed — just bring your questions and walk away with clarity. All Sheridan students are welcome.\nHow it works\n- you can join us for a mentorship session either in-person or virtually\nFor in-person\nsession:\nStep 1: Register for the session through this page.\nStep 2: On the day of the session, arrive at H153 (Sheridan’s Davis Campus) by 11:00 am to secure your 20-minute slot.\nFor virtual\nsession:\nStep 1: To join virtually,\nbook a time here\nand receive your meeting link.\nSessions run from\n11:00 am to\n3\n:00 pm\nand spots are assigned on a first-come, first-served basis. Bring your questions, ideas, or challenges and get focused, actionable next steps.\nWho should attend\n?\nSheridan students who want to:\nExplore entrepreneurship and business development\nGet feedback on an idea or business model\nBuild professional skills through one-on-one mentorship\nLearn how Sheridan EDGE can support their goals\nWhy should you attend?\nExplore entrepreneurship and discover how it can fit into your life.\nSharpen leadership, communication and intrapreneurial skills.\nGet one-on-one mentorship to develop, refine, and validate your idea.\nLearn how to structure a business plan using Sheridan EDGE’s template.\nEngage in a focused session with a business coach.\nGet guidance to grow or scale your business.\nRead more",
-      "eventbrite_id": "2001895571544",
-      "is_online": false,
-      "is_cancelled": false,
-      "price": "Free",
-      "sales_status": "",
-      "month": "Oct",
-      "day": "14",
-      "time": "11:00 AM",
-      "venue": "EDGE Hub, Davis Campus, Room H153"
-    },
-    {
       "title": "Ask EDGE - Using Entrepreneurial Thinking to Land Your Next Role",
       "url": "https://www.eventbrite.ca/e/ask-edge-using-entrepreneurial-thinking-to-land-your-next-role-tickets-2002552303848",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F43183648%2F205732746396%2F2%2Foriginal.jpg?w=2000&auto=format%2Ccompress&q=75&sharp=10&s=e366440bdb1e4ff156d05ef5eabe3989",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195864977%2F205732746396%2F1%2Foriginal.20261015-135709?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8d3ca36096ed9bb84069ecc255a18f5a",
       "list_date_box": {
         "month": "Oct",
         "day": "28"

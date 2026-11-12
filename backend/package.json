@@ -6,6 +6,7 @@
   "main": "api/server.js",
   "scripts": {
     "start": "node api/server.js",
+    "collect": "cd .. && python3 collect.py",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mikaela and Rita",

@@ -376,16 +376,38 @@ function weekCard(event, index, clone = false) {
 
 // ---------- top sections (built once) ----------
 
+// Alternate sides (1st left, 2nd right, 3rd left, 4th right) so the hero stays
+// balanced with 2 or 3 events. On each side the soonest event is the big one;
+// the right side is mirrored in CSS (row-reverse) so its big poster sits outside.
 function renderHero(upcoming) {
-  const tilts = [-4, 3, -3, 4];
-  $("hero-left").innerHTML = upcoming
-    .slice(0, 2)
-    .map((e, i) => poster(e, i, { small: i === 1, tilt: tilts[i] }))
-    .join("");
-  $("hero-right").innerHTML = upcoming
-    .slice(2, 4)
-    .map((e, i) => poster(e, i + 2, { small: i === 0, tilt: tilts[i + 2] }))
-    .join("");
+  const events = upcoming.slice(0, 4);
+  const side = (start, tilts) =>
+    events
+      .map((e, i) => [e, i])
+      .filter(([, i]) => i % 2 === start)
+      .map(([e, i], n) => poster(e, i, { small: n === 1, tilt: tilts[n] }))
+      .join("");
+  $("hero-left").innerHTML = side(0, [-4, 3]);
+  $("hero-right").innerHTML = side(1, [4, -3]);
+}
+
+// Swap the loading text for a wake-up note if the API is slow (Render's free
+// plan sleeps when idle). Returns a function that cancels it.
+function slowNotice(id, text = "Waking up the server, this can take up to a minute…") {
+  const timer = setTimeout(() => ($(id).textContent = text), 5000);
+  return () => clearTimeout(timer);
+}
+
+function renderLastUpdated(iso) {
+  const date = iso ? new Date(iso) : null;
+  if (!date || isNaN(date)) return;
+  $("last-updated").textContent = `Last updated: ${date.toLocaleString("en-CA", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+  })}`;
 }
 
 function renderWeek(weekEvents) {
@@ -672,6 +694,7 @@ function eventCard(event, index) {
 async function loadEvents() {
   $("count").textContent = "Loading events…";
   $("events-grid").setAttribute("aria-busy", "true");
+  const cancelNotice = slowNotice("count");
   try {
     const data = await fetchJson(buildEventsUrl());
     const selectedTag = $("tag-filter").value;
@@ -703,6 +726,7 @@ async function loadEvents() {
       error.message
     )}). Is the backend running? Start it with "node server.js" in the backend folder.</p>`;
   } finally {
+    cancelNotice();
     $("events-grid").removeAttribute("aria-busy");
   }
 }
@@ -981,12 +1005,14 @@ async function init() {
   $("year").textContent = new Date().getFullYear();
   loadEvents();
 
+  const cancelNotice = slowNotice("topbar-count");
   try {
     const [sources, all, week] = await Promise.all([
       fetchJson("/api/sources"),
       fetchJson("/api/events"),
       fetchJson("/api/events/week"),
-    ]);
+    ]).finally(cancelNotice);
+    renderLastUpdated(all.last_updated || sources[0]?.last_updated);
     for (const event of all.events) state.eventsById.set(event.id, event);
     populateTagFilter(all.events);
     // Reapply the active view and filters after tag options have loaded.
@@ -994,7 +1020,10 @@ async function init() {
     if ($("tag-filter").value) await loadEvents();
 
     const today = localDateString(new Date());
-    const upcoming = all.events.filter((e) => e.start_date >= today);
+    // Include events that are still running, soonest first
+    const upcoming = all.events
+      .filter((e) => (e.end_date || e.start_date) >= today)
+      .sort((a, b) => a.start_date.localeCompare(b.start_date));
 
     renderHero(upcoming);
     for (const event of week.events) state.eventsById.set(event.id, event);

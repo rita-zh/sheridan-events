@@ -1,20 +1,23 @@
 import express from 'express';
-import { readFileSync } from 'fs';
-import { join } from 'path';
+import { readFileSync, statSync } from 'fs';
+import { dirname, join } from 'path';
+import { fileURLToPath } from 'url';
 
-// Vercel runs functions from the project root (backend/), so build paths from there
-const DATA_DIR = join(process.cwd(), 'api');
+// data/events.json at the repo root, written daily by the GitHub Actions collector
+// (see collector/ and .github/workflows/collect-events.yml). Override with DATA_FILE.
+const DATA_FILE = process.env.DATA_FILE
+    || join(dirname(fileURLToPath(import.meta.url)), '..', '..', 'data', 'events.json');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 const TIME_ZONE = 'America/Toronto';
 
-// Each scraped file and the short name used in the URL, e.g. /api/events/source/ssu
+// The short names used in the URL, e.g. /api/events/source/ssu
 const SOURCES = [
-    { key: 'ssu', name: 'SSU', file: 'ssuevents.json' },
-    { key: 'clubs', name: 'Sheridan Clubs', file: 'clubevents.json' },
-    { key: 'edge', name: 'EDGE', file: 'edgeevents.json' },
-    { key: 'sheridan', name: 'Sheridan College', file: 'sheridancollegeevents.json' },
+    { key: 'ssu', name: 'SSU' },
+    { key: 'clubs', name: 'Sheridan Clubs' },
+    { key: 'edge', name: 'EDGE' },
+    { key: 'sheridan', name: 'Sheridan College' },
 ];
 
 // Short names people use for campuses -> words to look for in the event
@@ -71,40 +74,33 @@ function parseMonth(value) {
 }
 
 
-// ---------- loading the scraped files ----------
+// ---------- loading the collected data ----------
 
-// Re-read the files on every request so a fresh scrape shows up without a restart
-function loadEvents() {
-    const events = [];
-    for (const source of SOURCES) {
-        let data;
-        try {
-            data = JSON.parse(readFileSync(join(DATA_DIR, source.file), 'utf-8'));
-        } catch {
-            continue; // file missing or mid-write
-        }
-        for (const event of data.events || []) {
-            const occurrences = event.occurrences || [];
-            const startDate = occurrences[0]?.date;
-            const endDate = event.last_occurrence_ends_at
-                ? localDate(new Date(event.last_occurrence_ends_at))
-                : occurrences.at(-1)?.date;
+// The file is already in the final event shape. Keep it in memory and only
+// re-read it when it changes, so responses are instant (even right after a
+// cold start). If a read ever fails, keep serving the last good copy.
+const EMPTY = { last_updated: null, sources: {}, events: [] };
+let cache = { mtimeMs: null, data: EMPTY };
 
-            events.push({
-                id: `${source.key}-${event.url.split('/').filter(Boolean).pop()}`,
-                source: source.key,
-                source_name: source.name,
-                source_url: data.source,
-                start_date: startDate,
-                end_date: endDate,
-                ...event,
-                time_24h: occurrences[0]?.time_24h || null,
-            });
+function loadData() {
+    try {
+        const { mtimeMs } = statSync(DATA_FILE);
+        if (mtimeMs !== cache.mtimeMs) {
+            const data = JSON.parse(readFileSync(DATA_FILE, 'utf-8'));
+            if (!Array.isArray(data.events)) throw new Error('no events array');
+            cache = { mtimeMs, data };
         }
+    } catch (error) {
+        if (cache.mtimeMs === null) console.error(`Could not load ${DATA_FILE}: ${error.message}`);
     }
-    return events.sort((a, b) =>
-        `${a.start_date} ${a.time_24h}`.localeCompare(`${b.start_date} ${b.time_24h}`)
-    );
+    return cache.data;
+}
+
+// Upcoming and ongoing events only: the file is refreshed once a day, so
+// drop anything that has finished since it was written.
+function loadEvents() {
+    const now = today();
+    return loadData().events.filter(e => (e.end_date || e.start_date) >= now);
 }
 
 // True if the event happens on any day between from and to (inclusive).
@@ -192,7 +188,7 @@ function filterEvents(events, filters) {
 function sendEvents(req, res, filters = {}) {
     const allFilters = { ...req.query, ...filters };
     const events = filterEvents(loadEvents(), allFilters);
-    res.json({ count: events.length, filters: allFilters, events });
+    res.json({ count: events.length, last_updated: loadData().last_updated, filters: allFilters, events });
 }
 
 
@@ -229,14 +225,20 @@ app.get('/api', (req, res) => {
     });
 });
 
+// Still an array (the front-end maps over it). Each entry also carries the
+// file-wide last_updated plus that source's own last_success / status.
 app.get('/api/sources', (req, res) => {
+    const { last_updated, sources = {} } = loadData();
     const events = loadEvents();
     res.json(SOURCES.map(({ key, name }) => ({
         key,
         name,
         count: events.filter(e => e.source === key).length,
-        source_url: events.find(e => e.source === key)?.source_url || null,
+        source_url: sources[key]?.source_url || events.find(e => e.source === key)?.source_url || null,
         endpoint: `/api/events/source/${key}`,
+        status: sources[key]?.status || 'unknown',
+        last_success: sources[key]?.last_success || null,
+        last_updated,
     })));
 });
 

@@ -285,6 +285,7 @@
       }
       .posters.right {
         right: var(--gutter);
+        flex-direction: row-reverse;
       }
 
       /* Small tilted poster: event image on top, text on a solid colour below */
@@ -755,7 +756,8 @@
       }
       .dialog-close {
         position: sticky;
-        top: 0;
+        /* Same as the margin, so the gap stays once it sticks while scrolling */
+        top: 12px;
         float: right;
         z-index: 1;
         margin: 12px;
@@ -1250,6 +1252,7 @@
       </div>
       <div class="footer-bottom">
         <span>© <span id="year"></span> What's New at Sheridan</span>
+        <span id="last-updated"></span>
         <span>Event details come from each organizer's own site.</span>
       </div>
     </footer>

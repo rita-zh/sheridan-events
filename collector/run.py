@@ -36,6 +36,9 @@ log = logging.getLogger("collector")
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = Path(os.environ.get("EVENTS_FILE", REPO_ROOT / "data" / "events.json"))
+# A copy published with the website (Vercel serves frontend/), so the page can
+# show events instantly without waiting for the API to wake up.
+SITE_COPY = REPO_ROOT / "frontend" / "events.json"
 SCHEMA_VERSION = 1
 
 
@@ -210,6 +213,8 @@ def main(argv=None):
         log.info("dry run: not writing %s", args.output)
     else:
         write_atomically(args.output, output)
+        if args.output == DATA_FILE:
+            write_atomically(SITE_COPY, output)
         log.info("wrote %d events to %s (%d HTTP requests)", len(events), args.output, http.requests_made)
     step_summary(sources_meta, args.output)
 

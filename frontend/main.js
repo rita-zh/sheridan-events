@@ -596,6 +596,7 @@ function startCarousel(track, count) {
 
 // Organizer dropdown + footer links
 function renderOrganizerFilters(sources) {
+  const previous = $("organizer").value;
   $("footer-organizers").innerHTML = sources
     .map(
       (source) =>
@@ -615,6 +616,7 @@ function renderOrganizerFilters(sources) {
           )} (${source.count})</option>`
       )
       .join("");
+  $("organizer").value = previous;
 }
 
 // ---------- the events grid ----------
@@ -696,7 +698,21 @@ async function loadEvents() {
   $("events-grid").setAttribute("aria-busy", "true");
   const cancelNotice = slowNotice("count");
   try {
-    const data = await fetchJson(buildEventsUrl());
+    showResults(await fetchJson(buildEventsUrl()));
+  } catch (error) {
+    $("count").textContent = "";
+    $(
+      "events-grid"
+    ).innerHTML = `<p class="empty">Could not load events (${escapeHtml(
+      error.message
+    )}). Is the backend running? Start it with "node server.js" in the backend folder.</p>`;
+  } finally {
+    cancelNotice();
+    $("events-grid").removeAttribute("aria-busy");
+  }
+}
+
+function showResults(data) {
     const selectedTag = $("tag-filter").value;
     const events = selectedTag
       ? data.events.filter((event) => cardLabels(event).includes(selectedTag))
@@ -718,17 +734,6 @@ async function loadEvents() {
     $("events-grid").innerHTML = events.length
       ? events.map(eventCard).join("")
       : '<p class="empty">No events match these filters. Try another campus, organizer, time or tag.</p>';
-  } catch (error) {
-    $("count").textContent = "";
-    $(
-      "events-grid"
-    ).innerHTML = `<p class="empty">Could not load events (${escapeHtml(
-      error.message
-    )}). Is the backend running? Start it with "node server.js" in the backend folder.</p>`;
-  } finally {
-    cancelNotice();
-    $("events-grid").removeAttribute("aria-busy");
-  }
 }
 
 function setView(view) {
@@ -1001,36 +1006,106 @@ document.addEventListener("click", (e) => {
 
 // ---------- start ----------
 
+// ---------- saved copy (instant first paint) ----------
+
+// The daily collector also publishes events.json with this site. Drawing the
+// page from it means visitors see events right away, even while the API
+// (Render's free plan) is still waking up. The API is checked afterwards.
+async function fetchSnapshot() {
+  try {
+    const response = await fetch("events.json", { cache: "no-cache" });
+    return response.ok ? await response.json() : null;
+  } catch {
+    return null;
+  }
+}
+
+function addDays(dateString, days) {
+  const date = new Date(`${dateString}T00:00:00Z`);
+  date.setUTCDate(date.getUTCDate() + days);
+  return date.toISOString().slice(0, 10);
+}
+
+// Same rule as the API (backend/api/server.js): a one-date event with a later
+// end (e.g. a 6-week program) runs every day in between.
+function happensBetween(event, from, to) {
+  const dates = (event.occurrences || []).map((o) => o.date);
+  if (dates.length === 1 && event.end_date > event.start_date) {
+    return event.start_date <= to && event.end_date >= from;
+  }
+  return dates.some((date) => date >= from && date <= to);
+}
+
+// The saved file -> the same { sources, all, week } the API endpoints return
+function snapshotViews(data) {
+  const today = localDateString(new Date());
+  const events = data.events.filter(
+    (e) => (e.end_date || e.start_date) >= today
+  );
+  const weekday = new Date(`${today}T00:00:00Z`).getUTCDay(); // 0 = Sunday
+  const monday = addDays(today, weekday === 0 ? -6 : 1 - weekday);
+  const sunday = addDays(monday, 6);
+  return {
+    sources: Object.entries(data.sources || {}).map(([key, source]) => ({
+      key,
+      name: source.name,
+      count: events.filter((e) => e.source === key).length,
+    })),
+    all: { events, last_updated: data.last_updated },
+    week: { events: events.filter((e) => happensBetween(e, monday, sunday)) },
+  };
+}
+
+function renderTop({ sources, all, week }) {
+  renderLastUpdated(all.last_updated || sources[0]?.last_updated);
+  for (const event of all.events) state.eventsById.set(event.id, event);
+  populateTagFilter(all.events);
+
+  const today = localDateString(new Date());
+  // Include events that are still running, soonest first
+  const upcoming = all.events
+    .filter((e) => (e.end_date || e.start_date) >= today)
+    .sort((a, b) => a.start_date.localeCompare(b.start_date));
+
+  renderHero(upcoming);
+  for (const event of week.events) state.eventsById.set(event.id, event);
+  renderWeek(week.events);
+  renderOrganizerFilters(sources);
+}
+
 async function init() {
   $("year").textContent = new Date().getFullYear();
-  loadEvents();
 
-  const cancelNotice = slowNotice("topbar-count");
+  const snapshot = await fetchSnapshot();
+  // Browsers can restore dropdowns on reload; only the unfiltered grid can
+  // come straight from the saved copy.
+  const filtered = ["organizer", "campus", "time", "tag-filter"].some(
+    (id) => $(id).value
+  );
+  if (snapshot) {
+    const views = snapshotViews(snapshot);
+    renderTop(views);
+    if (filtered) loadEvents();
+    else showResults(views.all);
+  } else {
+    loadEvents();
+  }
+
+  const cancelNotice = snapshot ? () => {} : slowNotice("topbar-count");
   try {
     const [sources, all, week] = await Promise.all([
       fetchJson("/api/sources"),
       fetchJson("/api/events"),
       fetchJson("/api/events/week"),
     ]).finally(cancelNotice);
-    renderLastUpdated(all.last_updated || sources[0]?.last_updated);
-    for (const event of all.events) state.eventsById.set(event.id, event);
-    populateTagFilter(all.events);
-    // Reapply the active view and filters after tag options have loaded.
-    // This also keeps the initial state consistent if the API responds out of order.
-    if ($("tag-filter").value) await loadEvents();
-
-    const today = localDateString(new Date());
-    // Include events that are still running, soonest first
-    const upcoming = all.events
-      .filter((e) => (e.end_date || e.start_date) >= today)
-      .sort((a, b) => a.start_date.localeCompare(b.start_date));
-
-    renderHero(upcoming);
-    for (const event of week.events) state.eventsById.set(event.id, event);
-    renderWeek(week.events);
-    renderOrganizerFilters(sources);
+    // Usually the API has the same data as the saved copy: nothing to redraw
+    if (snapshot && all.last_updated === snapshot.last_updated) return;
+    renderTop({ sources, all, week });
+    // Redraw the grid with the newer data, keeping the visitor's filters.
+    // (Without a saved copy, this also reapplies a restored tag filter.)
+    if (snapshot || $("tag-filter").value) await loadEvents();
   } catch (error) {
-    $("topbar-count").textContent = "Could not reach the events API";
+    if (!snapshot) $("topbar-count").textContent = "Could not reach the events API";
     console.error(error);
   }
 }

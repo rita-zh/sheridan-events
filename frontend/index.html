@@ -237,16 +237,28 @@
 
       /* ---------- hero ---------- */
 
+      /* Three columns: posters | text | posters. The posters take part in the
+         layout (not absolutely positioned), so the text can never run over them;
+         the text column simply gets narrower, and at 960px and below (no room
+         beside the text) the posters are hidden. */
       .hero {
         position: relative;
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr) auto;
+        grid-template-areas: "left content right";
+        align-items: end;
+        column-gap: clamp(20px, 3vw, 48px);
         background: var(--hero);
-        padding: 84px var(--gutter) 124px;
+        padding: 84px var(--gutter) 72px;
         overflow: hidden;
       }
       .hero-content {
+        grid-area: content;
+        align-self: center;
         position: relative;
         z-index: 2;
         max-width: 720px;
+        width: 100%;
         margin: 0 auto;
         text-align: center;
       }
@@ -255,7 +267,8 @@
         color: var(--ink);
       }
       .hero h1 {
-        font-size: clamp(44px, 5.5vw, 70px);
+        font-size: clamp(40px, 5.5vw, 70px);
+        overflow-wrap: break-word;
         font-weight: 500;
         letter-spacing: -0.01em;
         margin-bottom: 22px;
@@ -273,18 +286,21 @@
       }
 
       .posters {
-        position: absolute;
-        bottom: 65px;
+        position: relative;
         z-index: 1;
         display: flex;
         align-items: flex-end;
         gap: 18px;
+        min-width: 0;
+      }
+      .posters:empty {
+        display: none;
       }
       .posters.left {
-        left: var(--gutter);
+        grid-area: left;
       }
       .posters.right {
-        right: var(--gutter);
+        grid-area: right;
         flex-direction: row-reverse;
       }
 
@@ -414,6 +430,16 @@
       }
       .week-arrow:hover {
         background: var(--white);
+      }
+      /* The arrows sit 80px outside the carousel, which only fits from ~1280px
+         up (1200px page + gutters). Narrower than that, tuck them inside. */
+      @media (max-width: 1300px) {
+        .week-arrow.prev {
+          left: 4px;
+        }
+        .week-arrow.next {
+          right: 4px;
+        }
       }
       @media (max-width: 760px) {
         .week-arrow {
@@ -586,6 +612,7 @@
         position: absolute;
         left: 12px;
         top: 12px;
+        margin: 0; /* <p> badges in the event grid get a default top margin */
         min-width: 58px;
         padding: 6px 8px;
         background: var(--white);
@@ -937,6 +964,17 @@
         }
       }
 
+      /* Not enough room beside the text: leave the posters out entirely */
+      @media (max-width: 960px) {
+        .hero {
+          grid-template-columns: minmax(0, 1fr);
+          grid-template-areas: "content";
+        }
+        .posters {
+          display: none;
+        }
+      }
+
       @media (max-width: 1024px) {
         .grid {
           grid-template-columns: repeat(2, 1fr);
@@ -978,11 +1016,8 @@
       }
 
       @media (max-width: 760px) {
-        .posters {
-          display: none;
-        }
         .hero {
-          padding: 44px var(--gutter) 88px;
+          padding: 44px var(--gutter) 56px;
         }
         .topbar .campuses {
           display: none;

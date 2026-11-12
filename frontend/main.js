@@ -1098,8 +1098,9 @@ async function init() {
       fetchJson("/api/events"),
       fetchJson("/api/events/week"),
     ]).finally(cancelNotice);
-    // Usually the API has the same data as the saved copy: nothing to redraw
-    if (snapshot && all.last_updated === snapshot.last_updated) return;
+    // Only redraw if the API has newer data than the saved copy. (Both are ISO
+    // UTC timestamps written by the collector, so they compare as strings.)
+    if (snapshot && !(all.last_updated > snapshot.last_updated)) return;
     renderTop({ sources, all, week });
     // Redraw the grid with the newer data, keeping the visitor's filters.
     // (Without a saved copy, this also reapplies a restored tag filter.)

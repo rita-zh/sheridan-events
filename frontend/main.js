@@ -96,6 +96,16 @@ function isHappeningNow(event) {
   return event.start_date < today && event.end_date >= today;
 }
 
+// Date badge: the start date, or "Until <end>" once an event is already running
+// (a program that started weeks ago shouldn't show an old date).
+function badgeDate(event) {
+  const running = isHappeningNow(event);
+  const date = running ? event.end_date : event.start_date;
+  const month = format(date, { month: "short" });
+  return `<span class="month">${escapeHtml(running ? `Until ${month}` : month)}</span>
+                    <span class="day">${escapeHtml(String(toDate(date).getDate()))}</span>`;
+}
+
 // "4:00 PM", or the end time too when the calendar link has it: "4:00 PM – 8:00 PM"
 function timeRange(event) {
   if (!event.time) return "Time not listed";
@@ -352,12 +362,7 @@ function weekCard(event, index, clone = false) {
                 <span class="card-media">
                     ${eventImage(event, index)}
                     <span class="date-badge" aria-hidden="true">
-                        <span class="month">${escapeHtml(
-                          format(event.start_date, { month: "short" })
-                        )}</span>
-                        <span class="day">${escapeHtml(
-                          String(toDate(event.start_date).getDate())
-                        )}</span>
+                        ${badgeDate(event)}
                     </span>
                 </span>
                 <span class="text">
@@ -419,12 +424,12 @@ function renderWeek(weekEvents) {
   ];
   $("topbar-count").textContent = `${weekEvents.length} event${
     weekEvents.length === 1 ? "" : "s"
-  } happening this week across every campus`;
+  } in the next 7 days across every campus`;
 
   const track = $("week-track");
   track.innerHTML =
     sorted.map((e, i) => weekCard(e, i)).join("") ||
-    '<li class="week-empty">Nothing on this week yet.</li>';
+    '<li class="week-empty">Nothing in the next 7 days yet.</li>';
   track.scrollLeft = 0;
 
   // Only loop (and show arrows) when the cards don't already fit on screen
@@ -629,12 +634,7 @@ function eventCard(event, index) {
             <div class="card-media">
                 ${eventImage(event, index)}
                 <p class="date-badge" aria-hidden="true">
-                    <span class="month">${escapeHtml(
-                      format(event.start_date, { month: "short" })
-                    )}</span>
-                    <span class="day">${escapeHtml(
-                      String(toDate(event.start_date).getDate())
-                    )}</span>
+                    ${badgeDate(event)}
                 </p>
             </div>
             <div class="card-body">
@@ -1036,15 +1036,12 @@ function happensBetween(event, from, to) {
   return dates.some((date) => date >= from && date <= to);
 }
 
-// The saved file -> the same { sources, all, week } the API endpoints return
+// The saved file -> the same { sources, all } the API endpoints return
 function snapshotViews(data) {
   const today = localDateString(new Date());
   const events = data.events.filter(
     (e) => (e.end_date || e.start_date) >= today
   );
-  const weekday = new Date(`${today}T00:00:00Z`).getUTCDay(); // 0 = Sunday
-  const monday = addDays(today, weekday === 0 ? -6 : 1 - weekday);
-  const sunday = addDays(monday, 6);
   return {
     sources: Object.entries(data.sources || {}).map(([key, source]) => ({
       key,
@@ -1052,11 +1049,10 @@ function snapshotViews(data) {
       count: events.filter((e) => e.source === key).length,
     })),
     all: { events, last_updated: data.last_updated },
-    week: { events: events.filter((e) => happensBetween(e, monday, sunday)) },
   };
 }
 
-function renderTop({ sources, all, week }) {
+function renderTop({ sources, all }) {
   renderLastUpdated(all.last_updated || sources[0]?.last_updated);
   for (const event of all.events) state.eventsById.set(event.id, event);
   populateTagFilter(all.events);
@@ -1068,8 +1064,9 @@ function renderTop({ sources, all, week }) {
     .sort((a, b) => a.start_date.localeCompare(b.start_date));
 
   renderHero(upcoming);
-  for (const event of week.events) state.eventsById.set(event.id, event);
-  renderWeek(week.events);
+  // The next 7 days (today + 6), not Monday-Sunday: on a Saturday the calendar
+  // week is almost over and would leave the carousel nearly empty.
+  renderWeek(upcoming.filter((e) => happensBetween(e, today, addDays(today, 6))));
   renderOrganizerFilters(sources);
 }
 
@@ -1093,15 +1090,14 @@ async function init() {
 
   const cancelNotice = snapshot ? () => {} : slowNotice("topbar-count");
   try {
-    const [sources, all, week] = await Promise.all([
+    const [sources, all] = await Promise.all([
       fetchJson("/api/sources"),
       fetchJson("/api/events"),
-      fetchJson("/api/events/week"),
     ]).finally(cancelNotice);
     // Only redraw if the API has newer data than the saved copy. (Both are ISO
     // UTC timestamps written by the collector, so they compare as strings.)
     if (snapshot && !(all.last_updated > snapshot.last_updated)) return;
-    renderTop({ sources, all, week });
+    renderTop({ sources, all });
     // Redraw the grid with the newer data, keeping the visitor's filters.
     // (Without a saved copy, this also reapplies a restored tag filter.)
     if (snapshot || $("tag-filter").value) await loadEvents();

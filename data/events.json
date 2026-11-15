@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-14T17:00:28+00:00",
-  "generated_at": "2026-11-14T17:00:28+00:00",
+  "last_updated": "2026-11-15T03:48:37+00:00",
+  "generated_at": "2026-11-15T03:48:37+00:00",
   "sources": {
     "ssu": {
       "name": "SSU",
@@ -38,9 +38,27 @@
       "status": "ok",
       "error": null,
       "count": 2
+    },
+    "theatre": {
+      "name": "Theatre Sheridan",
+      "source_url": "https://www.sheridancollege.ca/theatre/whats-on",
+      "last_attempt": "2026-11-15T03:48:37+00:00",
+      "last_success": "2026-11-15T03:48:37+00:00",
+      "status": "ok",
+      "error": null,
+      "count": 6
+    },
+    "radio": {
+      "name": "SheridanLife Radio",
+      "source_url": "https://www.sheridanliferadio.ca/events",
+      "last_attempt": "2026-11-15T03:48:37+00:00",
+      "last_success": "2026-11-15T03:48:37+00:00",
+      "status": "ok",
+      "error": null,
+      "count": 4
     }
   },
-  "count": 21,
+  "count": 31,
   "events": [
     {
       "id": "edge-thrive-sheridan-edges-signature-entrepreneurship-program-fall26-tickets-1996744809476",
@@ -295,6 +313,52 @@
       "day": "18",
       "time": "12:00 PM",
       "venue": "HMC Gymnasium",
+      "time_24h": "12:00"
+    },
+    {
+      "id": "radio-slr-volunteer-meeting-2026-11-18",
+      "source": "radio",
+      "source_name": "SheridanLife Radio",
+      "source_url": "https://www.sheridanliferadio.ca/events",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "title": "SLR Volunteer Meeting",
+      "url": "https://www.sheridanliferadio.ca/events",
+      "image_url": null,
+      "list_date_box": {
+        "month": "Nov",
+        "day": "18"
+      },
+      "excerpt": "Hey Sheridan! Come and check us out at our weekly volunteer meeting! We're open to all, no experience or sign-up required! Pop in, meet the team, learn about podcasting and radio, or pitch a new…",
+      "last_occurrence_ends_at": "2026-11-18T18:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-11-18",
+          "date_text": "Wednesday, November 18, 2026",
+          "time_12h": "12:00 PM",
+          "time_24h": "12:00"
+        }
+      ],
+      "address": {
+        "venue": "Trafalgar Campus",
+        "lines": [
+          "Trafalgar Campus",
+          "1430 Trafalgar Rd, Ontario, ON L6H 2L1, Canada"
+        ],
+        "map_url": "http://maps.google.com?q=1430%20Trafalgar%20Rd%2C%20Ontario%2C%20ON%20L6H%202L1%2C%20Canada"
+      },
+      "categories": [],
+      "tags": [
+        "Trafalgar Campus"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=SLR%20Volunteer%20Meeting&dates=20261118T170000Z/20261118T180000Z&location=Trafalgar%20Campus%2C%201430%20Trafalgar%20Rd%2C%20Ontario%2C%20ON%20L6H%202L1%2C%20Canada",
+      "ics_url": "https://calendar.google.com/calendar/ical/032e2f554e4e3c99b91c6313aa763070ca45ad8f6af9cbcc1178962fa428103e%40group.calendar.google.com/public/basic.ics",
+      "description": "Hey Sheridan! Come and check us out at our weekly volunteer meeting! We're open to all, no experience or sign-up required! Pop in, meet the team, learn about podcasting and radio, or pitch a new show! Find more details in our Discord: https://discord.gg/WCvEauc8TB",
+      "is_online": false,
+      "month": "Nov",
+      "day": "18",
+      "time": "12:00 PM",
+      "venue": "Trafalgar Campus",
       "time_24h": "12:00"
     },
     {
@@ -823,6 +887,52 @@
       "time_24h": "11:00"
     },
     {
+      "id": "radio-slr-volunteer-meeting-2026-11-25",
+      "source": "radio",
+      "source_name": "SheridanLife Radio",
+      "source_url": "https://www.sheridanliferadio.ca/events",
+      "start_date": "2026-11-25",
+      "end_date": "2026-11-25",
+      "title": "SLR Volunteer Meeting",
+      "url": "https://www.sheridanliferadio.ca/events",
+      "image_url": null,
+      "list_date_box": {
+        "month": "Nov",
+        "day": "25"
+      },
+      "excerpt": "Hey Sheridan! Come and check us out at our weekly volunteer meeting! We're open to all, no experience or sign-up required! Pop in, meet the team, learn about podcasting and radio, or pitch a new…",
+      "last_occurrence_ends_at": "2026-11-25T18:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-11-25",
+          "date_text": "Wednesday, November 25, 2026",
+          "time_12h": "12:00 PM",
+          "time_24h": "12:00"
+        }
+      ],
+      "address": {
+        "venue": "Trafalgar Campus",
+        "lines": [
+          "Trafalgar Campus",
+          "1430 Trafalgar Rd, Ontario, ON L6H 2L1, Canada"
+        ],
+        "map_url": "http://maps.google.com?q=1430%20Trafalgar%20Rd%2C%20Ontario%2C%20ON%20L6H%202L1%2C%20Canada"
+      },
+      "categories": [],
+      "tags": [
+        "Trafalgar Campus"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=SLR%20Volunteer%20Meeting&dates=20261125T170000Z/20261125T180000Z&location=Trafalgar%20Campus%2C%201430%20Trafalgar%20Rd%2C%20Ontario%2C%20ON%20L6H%202L1%2C%20Canada",
+      "ics_url": "https://calendar.google.com/calendar/ical/032e2f554e4e3c99b91c6313aa763070ca45ad8f6af9cbcc1178962fa428103e%40group.calendar.google.com/public/basic.ics",
+      "description": "Hey Sheridan! Come and check us out at our weekly volunteer meeting! We're open to all, no experience or sign-up required! Pop in, meet the team, learn about podcasting and radio, or pitch a new show! Find more details in our Discord: https://discord.gg/WCvEauc8TB",
+      "is_online": false,
+      "month": "Nov",
+      "day": "25",
+      "time": "12:00 PM",
+      "venue": "Trafalgar Campus",
+      "time_24h": "12:00"
+    },
+    {
       "id": "clubs-337646",
       "source": "clubs",
       "source_name": "Sheridan Clubs",
@@ -975,6 +1085,110 @@
       "time_24h": "19:00"
     },
     {
+      "id": "radio-slr-volunteer-meeting-2026-12-02",
+      "source": "radio",
+      "source_name": "SheridanLife Radio",
+      "source_url": "https://www.sheridanliferadio.ca/events",
+      "start_date": "2026-12-02",
+      "end_date": "2026-12-02",
+      "title": "SLR Volunteer Meeting",
+      "url": "https://www.sheridanliferadio.ca/events",
+      "image_url": null,
+      "list_date_box": {
+        "month": "Dec",
+        "day": "2"
+      },
+      "excerpt": "Hey Sheridan! Come and check us out at our weekly volunteer meeting! We're open to all, no experience or sign-up required! Pop in, meet the team, learn about podcasting and radio, or pitch a new…",
+      "last_occurrence_ends_at": "2026-12-02T18:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-12-02",
+          "date_text": "Wednesday, December 2, 2026",
+          "time_12h": "12:00 PM",
+          "time_24h": "12:00"
+        }
+      ],
+      "address": {
+        "venue": "Trafalgar Campus",
+        "lines": [
+          "Trafalgar Campus",
+          "1430 Trafalgar Rd, Ontario, ON L6H 2L1, Canada"
+        ],
+        "map_url": "http://maps.google.com?q=1430%20Trafalgar%20Rd%2C%20Ontario%2C%20ON%20L6H%202L1%2C%20Canada"
+      },
+      "categories": [],
+      "tags": [
+        "Trafalgar Campus"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=SLR%20Volunteer%20Meeting&dates=20261202T170000Z/20261202T180000Z&location=Trafalgar%20Campus%2C%201430%20Trafalgar%20Rd%2C%20Ontario%2C%20ON%20L6H%202L1%2C%20Canada",
+      "ics_url": "https://calendar.google.com/calendar/ical/032e2f554e4e3c99b91c6313aa763070ca45ad8f6af9cbcc1178962fa428103e%40group.calendar.google.com/public/basic.ics",
+      "description": "Hey Sheridan! Come and check us out at our weekly volunteer meeting! We're open to all, no experience or sign-up required! Pop in, meet the team, learn about podcasting and radio, or pitch a new show! Find more details in our Discord: https://discord.gg/WCvEauc8TB",
+      "is_online": false,
+      "month": "Dec",
+      "day": "2",
+      "time": "12:00 PM",
+      "venue": "Trafalgar Campus",
+      "time_24h": "12:00"
+    },
+    {
+      "id": "theatre-company",
+      "source": "theatre",
+      "source_name": "Theatre Sheridan",
+      "source_url": "https://www.sheridancollege.ca/theatre/whats-on",
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-18",
+      "title": "Company",
+      "url": "https://www.sheridancollege.ca/theatre/whats-on/company",
+      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/theatre-sheridan/whats-on/2026-27/company.jpg?rev=d1a9cd396d7b42a890645b6eb62a312f",
+      "list_date_box": {
+        "month": "Dec",
+        "day": "5"
+      },
+      "excerpt": "Decades after its debut, the iconic Sondheim classic, Company, remains as funny, relevant and thought-provoking as ever. Winning four Tony Awards, including Best Musical, this brilliantly written…",
+      "last_occurrence_ends_at": "2026-12-19T04:59:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-12-05",
+          "date_text": "Saturday, December 5, 2026",
+          "time_12h": null,
+          "time_24h": null
+        },
+        {
+          "date": "2026-12-18",
+          "date_text": "Friday, December 18, 2026",
+          "time_12h": null,
+          "time_24h": null
+        }
+      ],
+      "address": {
+        "venue": "Studio Theatre",
+        "lines": [
+          "Studio Theatre",
+          "Trafalgar Campus",
+          "1430 Trafalgar Road, Oakville, ON"
+        ],
+        "map_url": "http://maps.google.com?q=Studio%20Theatre%2C%201430%20Trafalgar%20Road%2C%20Oakville%2C%20ON"
+      },
+      "categories": [
+        "Arts",
+        "Theatre"
+      ],
+      "tags": [
+        "Trafalgar Campus"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Company&dates=20261205T050000Z/20261219T045900Z&location=Studio%20Theatre%2C%20Trafalgar%20Campus%2C%201430%20Trafalgar%20Road%2C%20Oakville%2C%20ON",
+      "ics_url": null,
+      "description": "What does it mean to be alive?\nDecades after its debut, the iconic Sondheim classic, Company, remains as funny, relevant and thought-provoking as ever. Winning four Tony Awards, including Best Musical, this brilliantly written score has inspired audiences around the world through its authentic portrayal of the human experience. With a fresh and biting comedic edge, Theatre Sheridan's Company offers an honest and hilarious look at modern relationships, exploring marriage, friendship and everything in between.\nCompany will be playing in the Studio Theatre from December 5–18, 2026.\nCompany is presented through special arrangement through Music Theatre International (MT). All authorized performance materials are also supplied by MTI. www.mtishows.com\nMusic and lyrics by Stephen Sondheim Book by George Furth Originally produced and directed on Broadway by Harold Prince Orchestrations by Jonathan Tunick\nDirector: Kate Hennig Music Director: Athena So Set Designer: Shannon Lea Doyle Costume Designer: Brooke Logie",
+      "price": "$18–$33 + fees",
+      "tickets_url": "https://secure1.tixhub.com/sheridan/online/b_otix.asp?cboPerformances=474&cboEvent=120&bmultiple=1&width=1443",
+      "is_online": false,
+      "month": "Dec",
+      "day": "5",
+      "time": null,
+      "venue": "Studio Theatre",
+      "time_24h": null
+    },
+    {
       "id": "clubs-337749",
       "source": "clubs",
       "source_name": "Sheridan Clubs",
@@ -1027,6 +1241,110 @@
       "time": "8:00 AM",
       "venue": "Room J219 - Trafalgar Campus",
       "time_24h": "08:00"
+    },
+    {
+      "id": "theatre-addams-family",
+      "source": "theatre",
+      "source_name": "Theatre Sheridan",
+      "source_url": "https://www.sheridancollege.ca/theatre/whats-on",
+      "start_date": "2026-12-09",
+      "end_date": "2026-12-18",
+      "title": "The Addams Family",
+      "url": "https://www.sheridancollege.ca/theatre/whats-on/addams-family",
+      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/theatre-sheridan/whats-on/2026-27/addams-family.jpg?rev=29a5e9e50ba2418bad7b0bf8efaa079d",
+      "list_date_box": {
+        "month": "Dec",
+        "day": "9"
+      },
+      "excerpt": "Snap your fingers and join your favourite (but frightening) family! In one fateful, hilarious, and deceptively normal night, relationships are tested and truths are fully disclosed. Prepare yourself…",
+      "last_occurrence_ends_at": "2026-12-19T04:59:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-12-09",
+          "date_text": "Wednesday, December 9, 2026",
+          "time_12h": null,
+          "time_24h": null
+        },
+        {
+          "date": "2026-12-18",
+          "date_text": "Friday, December 18, 2026",
+          "time_12h": null,
+          "time_24h": null
+        }
+      ],
+      "address": {
+        "venue": "Macdonald Heaslip Hall",
+        "lines": [
+          "Macdonald Heaslip Hall",
+          "Trafalgar Campus",
+          "1430 Trafalgar Road, Oakville, ON"
+        ],
+        "map_url": "http://maps.google.com?q=Macdonald%20Heaslip%20Hall%2C%201430%20Trafalgar%20Road%2C%20Oakville%2C%20ON"
+      },
+      "categories": [
+        "Arts",
+        "Theatre"
+      ],
+      "tags": [
+        "Trafalgar Campus"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=The%20Addams%20Family&dates=20261209T050000Z/20261219T045900Z&location=Macdonald%20Heaslip%20Hall%2C%20Trafalgar%20Campus%2C%201430%20Trafalgar%20Road%2C%20Oakville%2C%20ON",
+      "ics_url": null,
+      "description": "Normal is overrated.\nSnap your fingers and join your favourite (but frightening) family! In one fateful, hilarious, and deceptively normal night, relationships are tested and truths are fully disclosed. Prepare yourself to be pulled in a new direction with Theatre Sheridan's The Addams Family. In the kooky world of the living, dead and somewhere in between, explore a story of secrets, individuality and the chaos of what it means to be \"normal.\" A hauntingly hilarious time of family and love where the Addams' confront their worst nightmare: change! Bring the whole bloodline and celebrate what it is to be an Addams!\nThe Addams Family will be playing in Macdonald Heaslip Hall from December 9–18, 2026.\nThe Addams Family is presented through special arrangement with and all authorized performances materials are supplied by Theatrical Rights Worldwide 1180 Avenue of the Americas, Suite 640, New York, NY 10036. www.theatricalrights.com\nBook by Marshall Brickman and Rick Elice Music and Lyrics by Andrew Lippa Orchestrations by Larry Hochman Based on characters created by Charles Addams\nDirector: Thomas Alderson Choreographer: Krista Leis Music Director: Doug Price Set Designer: Jung-Hye Kim Costume Designer: Barbara Rowe Lighting Designer: Émilie Trimbee Sound Designer: Sam Ferguson",
+      "price": "$18–$33 + fees",
+      "tickets_url": "https://secure1.tixhub.com/sheridan/online/b_otix?cboPerformances=448&cboEvent=119&bmultiple=1&width=1443",
+      "is_online": false,
+      "month": "Dec",
+      "day": "9",
+      "time": null,
+      "venue": "Macdonald Heaslip Hall",
+      "time_24h": null
+    },
+    {
+      "id": "radio-slr-volunteer-meeting-2026-12-09",
+      "source": "radio",
+      "source_name": "SheridanLife Radio",
+      "source_url": "https://www.sheridanliferadio.ca/events",
+      "start_date": "2026-12-09",
+      "end_date": "2026-12-09",
+      "title": "SLR Volunteer Meeting",
+      "url": "https://www.sheridanliferadio.ca/events",
+      "image_url": null,
+      "list_date_box": {
+        "month": "Dec",
+        "day": "9"
+      },
+      "excerpt": "Hey Sheridan! Come and check us out at our weekly volunteer meeting! We're open to all, no experience or sign-up required! Pop in, meet the team, learn about podcasting and radio, or pitch a new…",
+      "last_occurrence_ends_at": "2026-12-09T18:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-12-09",
+          "date_text": "Wednesday, December 9, 2026",
+          "time_12h": "12:00 PM",
+          "time_24h": "12:00"
+        }
+      ],
+      "address": {
+        "venue": "Trafalgar Campus",
+        "lines": [
+          "Trafalgar Campus",
+          "1430 Trafalgar Rd, Ontario, ON L6H 2L1, Canada"
+        ],
+        "map_url": "http://maps.google.com?q=1430%20Trafalgar%20Rd%2C%20Ontario%2C%20ON%20L6H%202L1%2C%20Canada"
+      },
+      "categories": [],
+      "tags": [
+        "Trafalgar Campus"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=SLR%20Volunteer%20Meeting&dates=20261209T170000Z/20261209T180000Z&location=Trafalgar%20Campus%2C%201430%20Trafalgar%20Rd%2C%20Ontario%2C%20ON%20L6H%202L1%2C%20Canada",
+      "ics_url": "https://calendar.google.com/calendar/ical/032e2f554e4e3c99b91c6313aa763070ca45ad8f6af9cbcc1178962fa428103e%40group.calendar.google.com/public/basic.ics",
+      "description": "Hey Sheridan! Come and check us out at our weekly volunteer meeting! We're open to all, no experience or sign-up required! Pop in, meet the team, learn about podcasting and radio, or pitch a new show! Find more details in our Discord: https://discord.gg/WCvEauc8TB",
+      "is_online": false,
+      "month": "Dec",
+      "day": "9",
+      "time": "12:00 PM",
+      "venue": "Trafalgar Campus",
+      "time_24h": "12:00"
     },
     {
       "id": "ssu-ssu-presents-12th-annual-family-holiday-party-2026",
@@ -1127,6 +1445,238 @@
       "time": "4:00 PM",
       "venue": "The Station",
       "time_24h": "16:00"
+    },
+    {
+      "id": "theatre-adventures-roderick-random",
+      "source": "theatre",
+      "source_name": "Theatre Sheridan",
+      "source_url": "https://www.sheridancollege.ca/theatre/whats-on",
+      "start_date": "2027-01-30",
+      "end_date": "2027-02-04",
+      "title": "The Adventures of Roderick Random",
+      "url": "https://www.sheridancollege.ca/theatre/whats-on/adventures-roderick-random",
+      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/theatre-sheridan/whats-on/2026-27/adventures-roderick-random.jpg?rev=49c0ecf173154b668b157c4f67c312c8",
+      "list_date_box": {
+        "month": "Jan",
+        "day": "30"
+      },
+      "excerpt": "In collaboration with the Shaw Festival, Theatre Sheridan is bringing the swashbuckling adventure you've been craving to the stage. Adapted from the 1748 satirical novel by Tobias Smollett, The…",
+      "last_occurrence_ends_at": "2027-02-05T04:59:00+00:00",
+      "occurrences": [
+        {
+          "date": "2027-01-30",
+          "date_text": "Saturday, January 30, 2027",
+          "time_12h": null,
+          "time_24h": null
+        },
+        {
+          "date": "2027-02-04",
+          "date_text": "Thursday, February 4, 2027",
+          "time_12h": null,
+          "time_24h": null
+        }
+      ],
+      "address": {
+        "venue": "Studio Theatre",
+        "lines": [
+          "Studio Theatre",
+          "Trafalgar Campus",
+          "1430 Trafalgar Road, Oakville, ON"
+        ],
+        "map_url": "http://maps.google.com?q=Studio%20Theatre%2C%201430%20Trafalgar%20Road%2C%20Oakville%2C%20ON"
+      },
+      "categories": [
+        "Arts",
+        "Theatre"
+      ],
+      "tags": [
+        "Trafalgar Campus"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=The%20Adventures%20of%20Roderick%20Random&dates=20270130T050000Z/20270205T045900Z&location=Studio%20Theatre%2C%20Trafalgar%20Campus%2C%201430%20Trafalgar%20Road%2C%20Oakville%2C%20ON",
+      "ics_url": null,
+      "description": "The coming of age story that never gets old.\nIn collaboration with the Shaw Festival, Theatre Sheridan is bringing the swashbuckling adventure you've been craving to the stage. Adapted from the 1748 satirical novel by Tobias Smollett, The Adventures of Roderick Random keeps you on the edge of your seat, following our roguish hero through a series of unbelievable escapades, and leading to a future far beyond his imagination. Full to the brim of boisterous characters, and songs you'll be humming the whole way home, this is the coming of age story you don't want to miss. Join us for The Adventures of Roderick Random, and be swept away on the journey of lifetime.\nThe Adventures of Roderick Random will be playing in the Studio Theatre January 30–February 4, 2027.\nPresented in collaboration with the Shaw Festival.\nCreated by Jay Turvey and Paul Sportelli Based on the novel by Tobias Smollett\nDirector: Jay Turvey",
+      "price": "$18–$33 + fees",
+      "tickets_url": "https://secure1.tixhub.com/sheridan/online/b_otix?cboPerformances=509&cboEvent=124&bmultiple=1&width=1443",
+      "is_online": false,
+      "month": "Jan",
+      "day": "30",
+      "time": null,
+      "venue": "Studio Theatre",
+      "time_24h": null
+    },
+    {
+      "id": "theatre-nutcracker",
+      "source": "theatre",
+      "source_name": "Theatre Sheridan",
+      "source_url": "https://www.sheridancollege.ca/theatre/whats-on",
+      "start_date": "2027-01-30",
+      "end_date": "2027-02-04",
+      "title": "The Nutcracker",
+      "url": "https://www.sheridancollege.ca/theatre/whats-on/nutcracker",
+      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/theatre-sheridan/whats-on/2026-27/nutcracker.jpg?rev=6f8f4a6d57014986afd3a39dd3e154b8",
+      "list_date_box": {
+        "month": "Jan",
+        "day": "30"
+      },
+      "excerpt": "When Clara's father whisks her away to an antique hotel for the holidays, she's promised the \"best Christmas ever.\" But how special can a family holiday be when the family looks so different than it…",
+      "last_occurrence_ends_at": "2027-02-05T04:59:00+00:00",
+      "occurrences": [
+        {
+          "date": "2027-01-30",
+          "date_text": "Saturday, January 30, 2027",
+          "time_12h": null,
+          "time_24h": null
+        },
+        {
+          "date": "2027-02-04",
+          "date_text": "Thursday, February 4, 2027",
+          "time_12h": null,
+          "time_24h": null
+        }
+      ],
+      "address": {
+        "venue": "Studio Theatre",
+        "lines": [
+          "Studio Theatre",
+          "Trafalgar Campus",
+          "1430 Trafalgar Road, Oakville, ON"
+        ],
+        "map_url": "http://maps.google.com?q=Studio%20Theatre%2C%201430%20Trafalgar%20Road%2C%20Oakville%2C%20ON"
+      },
+      "categories": [
+        "Arts",
+        "Theatre"
+      ],
+      "tags": [
+        "Trafalgar Campus"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=The%20Nutcracker&dates=20270130T050000Z/20270205T045900Z&location=Studio%20Theatre%2C%20Trafalgar%20Campus%2C%201430%20Trafalgar%20Road%2C%20Oakville%2C%20ON",
+      "ics_url": null,
+      "description": "Is Christmas truly magic, or is it just a magic trick?\nWhen Clara's father whisks her away to an antique hotel for the holidays, she's promised the \"best Christmas ever.\" But how special can a family holiday be when the family looks so different than it once did?\nJoin Theatre Sheridan for a night of wonder and delight, and be among the first to experience this new adaptation before it takes the world by storm.\nThe Nutcracker will be playing in the Studio Theatre January 30–February 4, 2027.\nPresented in collaboration with Bad Hats Theatre.\nAdapted, written and directed by Fiona Sauder Music by Britta Johnson Dramaturgy by Matt Pilipiak\nInspired by Tchaikovsky's classic ballet, The Nutcracker is a captivating new musical that challenges the notion that real life can take a back seat when the fantasy of holiday magic takes centre stage. With a powerhouse team behind the wheel, Bad Hats Theatre (NARNIA) and Britta Johnson (LIFE AFTER) bring you the enchanting tale of a Christmas turned upside down.",
+      "price": "$18–$33 + fees",
+      "tickets_url": "https://secure1.tixhub.com/sheridan/online/b_otix?cboPerformances=512&cboEvent=125&bmultiple=1&width=1443",
+      "is_online": false,
+      "month": "Jan",
+      "day": "30",
+      "time": null,
+      "venue": "Studio Theatre",
+      "time_24h": null
+    },
+    {
+      "id": "theatre-prom",
+      "source": "theatre",
+      "source_name": "Theatre Sheridan",
+      "source_url": "https://www.sheridancollege.ca/theatre/whats-on",
+      "start_date": "2027-03-27",
+      "end_date": "2027-04-10",
+      "title": "The Prom",
+      "url": "https://www.sheridancollege.ca/theatre/whats-on/prom",
+      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/theatre-sheridan/whats-on/2026-27/prom.jpg?rev=fbdd4de664034138818e2ecfee7cfa56",
+      "list_date_box": {
+        "month": "Mar",
+        "day": "27"
+      },
+      "excerpt": "With the support of four self-obsessed Broadway stars, a repressed teen lesbian fights for inclusivity after being excluded from her senior prom. From the writer of Theatre Sheridan's sold-out hit…",
+      "last_occurrence_ends_at": "2027-04-11T03:59:00+00:00",
+      "occurrences": [
+        {
+          "date": "2027-03-27",
+          "date_text": "Saturday, March 27, 2027",
+          "time_12h": null,
+          "time_24h": null
+        },
+        {
+          "date": "2027-04-10",
+          "date_text": "Saturday, April 10, 2027",
+          "time_12h": null,
+          "time_24h": null
+        }
+      ],
+      "address": {
+        "venue": "Studio Theatre",
+        "lines": [
+          "Studio Theatre",
+          "Trafalgar Campus",
+          "1430 Trafalgar Road, Oakville, ON"
+        ],
+        "map_url": "http://maps.google.com?q=Studio%20Theatre%2C%201430%20Trafalgar%20Road%2C%20Oakville%2C%20ON"
+      },
+      "categories": [
+        "Arts",
+        "Theatre"
+      ],
+      "tags": [
+        "Trafalgar Campus"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=The%20Prom&dates=20270327T040000Z/20270411T035900Z&location=Studio%20Theatre%2C%20Trafalgar%20Campus%2C%201430%20Trafalgar%20Road%2C%20Oakville%2C%20ON",
+      "ics_url": null,
+      "description": "Big Broadway personalities. Bigger small-town drama.\nWith the support of four self-obsessed Broadway stars, a repressed teen lesbian fights for inclusivity after being excluded from her senior prom. From the writer of Theatre Sheridan's sold-out hit The Drowsy Chaperone, the campy and outrageous world of The Prom reminds us that everyone deserves their chance to shine. Heartfelt and hilarious, it's full of big personalities, bigger dance numbers and an unforgettable celebration of being unapologetically yourself. Come see the honest and inspiring story that proves standing up for who you are can change everything.\nThe Prom will be playing in the Studio Theatre from March 27–April 10, 2027.\nThe Prom is presented through special arrangement with and all authorized performance materials are supplied by Theatrical Rights Worldwide 1180 Avenue of the Americas, Suite 640, New York, NY 10036. www.theatricalrights.com\nBook and lyrics by Chad Beguelin Book by Bob Martin Music by Matthew Sklar Based on an original concept by Jack Viertel Original Broadway production directed and choreographed by Casey Nicholaw Originally produced on Broadway by Bill Damaschke, Dori Berinstein, Jack Lane\nDirector: Thom Allison Choreographer: Allison Plamondon Music Director: Aaron Eyre Set Designer: Shannon Lea Doyle",
+      "price": "$18–$33 + fees",
+      "tickets_url": "https://secure1.tixhub.com/sheridan/online/b_otix.asp?cboPerformances=489&cboEvent=122&bmultiple=1&width=1443",
+      "is_online": false,
+      "month": "Mar",
+      "day": "27",
+      "time": null,
+      "venue": "Studio Theatre",
+      "time_24h": null
+    },
+    {
+      "id": "theatre-shrek-the-musical",
+      "source": "theatre",
+      "source_name": "Theatre Sheridan",
+      "source_url": "https://www.sheridancollege.ca/theatre/whats-on",
+      "start_date": "2027-03-31",
+      "end_date": "2027-04-10",
+      "title": "Shrek the Musical",
+      "url": "https://www.sheridancollege.ca/theatre/whats-on/shrek-the-musical",
+      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/theatre-sheridan/whats-on/2026-27/shrek-musical.jpg?rev=954ae535c42a42debeeb4ee01dd1f87e",
+      "list_date_box": {
+        "month": "Mar",
+        "day": "31"
+      },
+      "excerpt": "Tap dancing rats, burp competitions and a princess stuck in a dragon-guarded tower! Bring the whole family for a swamp-load of fairytale fun with Shrek the Musical. Jam-packed with laughs, heart…",
+      "last_occurrence_ends_at": "2027-04-11T03:59:00+00:00",
+      "occurrences": [
+        {
+          "date": "2027-03-31",
+          "date_text": "Wednesday, March 31, 2027",
+          "time_12h": null,
+          "time_24h": null
+        },
+        {
+          "date": "2027-04-10",
+          "date_text": "Saturday, April 10, 2027",
+          "time_12h": null,
+          "time_24h": null
+        }
+      ],
+      "address": {
+        "venue": "Macdonald Heaslip Hall",
+        "lines": [
+          "Macdonald Heaslip Hall",
+          "Trafalgar Campus",
+          "1430 Trafalgar Road, Oakville, ON"
+        ],
+        "map_url": "http://maps.google.com?q=Macdonald%20Heaslip%20Hall%2C%201430%20Trafalgar%20Road%2C%20Oakville%2C%20ON"
+      },
+      "categories": [
+        "Arts",
+        "Theatre"
+      ],
+      "tags": [
+        "Trafalgar Campus"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Shrek%20the%20Musical&dates=20270331T040000Z/20270411T035900Z&location=Macdonald%20Heaslip%20Hall%2C%20Trafalgar%20Campus%2C%201430%20Trafalgar%20Road%2C%20Oakville%2C%20ON",
+      "ics_url": null,
+      "description": "Once Upon A Time just got a whole lot whackier…\nTap dancing rats, burp competitions and a princess stuck in a dragon-guarded tower! Bring the whole family for a swamp-load of fairytale fun with Shrek the Musical. Jam-packed with laughs, heart, adventure and surprises around every corner, Theatre Sheridan presents the larger-than-life musical that proves true beauty comes from within. In this kingdom, even the biggest misfits can find their happily ever after.\nShrek the Musical will be playing in Macdonald Heaslip Hall from March 31–April 10, 2027.\nShrek the Musical is presented through special arrangement through Music Theatre International (MTI). All authorized performance materials are also supplied by MTI. www.mtishows.com\nBook and lyrics by David Lindsay–Abaire Music by Jeanine Tesori Originally produced on Broadway by DreamWorks Theatricals and Neal Street Productions\nDirector/Choreographer: Julie Tomaino Music Director: Rachel O'Brien Set Designer: Jung-Hye Kim Costume Designer: Barbara Rowe Sound Designer: Tim Lindsay",
+      "price": "$18–$33 + fees",
+      "tickets_url": "https://secure1.tixhub.com/sheridan/online/b_otix.asp?cboPerformances=461&cboEvent=121&bmultiple=1&width=1443",
+      "is_online": false,
+      "month": "Mar",
+      "day": "31",
+      "time": null,
+      "venue": "Macdonald Heaslip Hall",
+      "time_24h": null
     }
   ]
 }

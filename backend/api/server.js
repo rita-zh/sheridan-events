@@ -18,6 +18,8 @@ const SOURCES = [
     { key: 'clubs', name: 'Sheridan Clubs' },
     { key: 'edge', name: 'EDGE' },
     { key: 'sheridan', name: 'Sheridan College' },
+    { key: 'theatre', name: 'Theatre Sheridan' },
+    { key: 'radio', name: 'SheridanLife Radio' },
 ];
 
 // Short names people use for campuses -> words to look for in the event

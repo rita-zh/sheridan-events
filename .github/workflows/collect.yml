@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       only:
-        description: "Only these sources, space-separated (ssu clubs edge sheridan). Blank = all."
+        description: "Only these sources, space-separated (ssu clubs edge sheridan theatre radio). Blank = all."
         required: false
         default: ""
 

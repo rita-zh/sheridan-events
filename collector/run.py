@@ -28,7 +28,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable
 
-from . import clubs, edge, sheridan, ssu
+from . import clubs, edge, radio, sheridan, ssu, theatre
 from .common import CollectorError, finalize, is_upcoming, now_utc
 from .http import Http
 
@@ -56,6 +56,8 @@ SOURCES = [
     Source("clubs", "Sheridan Clubs", "https://sheridancollege.campuslabs.ca/engage/events", clubs.collect),
     Source("edge", "EDGE", edge.ORGANIZER_URL, edge.collect),
     Source("sheridan", "Sheridan College", "https://www.sheridancollege.ca/events", sheridan.collect),
+    Source("theatre", "Theatre Sheridan", theatre.WHATS_ON_URL, theatre.collect),
+    Source("radio", "SheridanLife Radio", radio.EVENTS_URL, radio.collect),
 ]
 
 

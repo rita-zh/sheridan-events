@@ -185,8 +185,10 @@ def end_date_of(record):
 def finalize(record, source):
     """Add the fields the API serves on top of the per-source record."""
     first = record["occurrences"][0]
+    # A source whose events all share one page (e.g. a calendar) passes its own slug
+    slug = record.pop("slug", None) or slug_from_url(record["url"])
     return {
-        "id": f"{source.key}-{slug_from_url(record['url'])}",
+        "id": f"{source.key}-{slug}",
         "source": source.key,
         "source_name": source.name,
         "source_url": source.url,

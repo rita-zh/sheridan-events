@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-16T20:57:32+00:00",
-  "generated_at": "2026-11-16T20:57:32+00:00",
+  "last_updated": "2026-11-17T19:47:03+00:00",
+  "generated_at": "2026-11-17T19:47:03+00:00",
   "sources": {
     "ssu": {
       "name": "SSU",
       "source_url": "https://www.thessu.ca/events",
-      "last_attempt": "2026-11-16T20:57:32+00:00",
-      "last_success": "2026-11-16T20:57:32+00:00",
+      "last_attempt": "2026-11-17T19:47:03+00:00",
+      "last_success": "2026-11-17T19:47:03+00:00",
       "status": "ok",
       "error": null,
       "count": 9
@@ -15,17 +15,17 @@
     "clubs": {
       "name": "Sheridan Clubs",
       "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
-      "last_attempt": "2026-11-16T20:57:32+00:00",
-      "last_success": "2026-11-16T20:57:32+00:00",
+      "last_attempt": "2026-11-17T19:47:03+00:00",
+      "last_success": "2026-11-17T19:47:03+00:00",
       "status": "ok",
       "error": null,
-      "count": 10
+      "count": 14
     },
     "edge": {
       "name": "EDGE",
       "source_url": "https://www.eventbrite.ca/o/edge-13162231152",
-      "last_attempt": "2026-11-16T20:57:32+00:00",
-      "last_success": "2026-11-16T20:57:32+00:00",
+      "last_attempt": "2026-11-17T19:47:03+00:00",
+      "last_success": "2026-11-17T19:47:03+00:00",
       "status": "ok",
       "error": null,
       "count": 2
@@ -33,8 +33,8 @@
     "sheridan": {
       "name": "Sheridan College",
       "source_url": "https://www.sheridancollege.ca/events",
-      "last_attempt": "2026-11-16T20:57:32+00:00",
-      "last_success": "2026-11-16T20:57:32+00:00",
+      "last_attempt": "2026-11-17T19:47:03+00:00",
+      "last_success": "2026-11-17T19:47:03+00:00",
       "status": "ok",
       "error": null,
       "count": 2
@@ -42,8 +42,8 @@
     "theatre": {
       "name": "Theatre Sheridan",
       "source_url": "https://www.sheridancollege.ca/theatre/whats-on",
-      "last_attempt": "2026-11-16T20:57:32+00:00",
-      "last_success": "2026-11-16T20:57:32+00:00",
+      "last_attempt": "2026-11-17T19:47:03+00:00",
+      "last_success": "2026-11-17T19:47:03+00:00",
       "status": "ok",
       "error": null,
       "count": 6
@@ -51,14 +51,14 @@
     "radio": {
       "name": "SheridanLife Radio",
       "source_url": "https://www.sheridanliferadio.ca/events",
-      "last_attempt": "2026-11-16T20:57:32+00:00",
-      "last_success": "2026-11-16T20:57:32+00:00",
+      "last_attempt": "2026-11-17T19:47:03+00:00",
+      "last_success": "2026-11-17T19:47:03+00:00",
       "status": "ok",
       "error": null,
-      "count": 4
+      "count": 5
     }
   },
-  "count": 33,
+  "count": 38,
   "events": [
     {
       "id": "edge-thrive-sheridan-edges-signature-entrepreneurship-program-fall26-tickets-1996744809476",
@@ -473,7 +473,7 @@
       "end_date": "2026-11-20",
       "title": "TD Insurance Webinar: Learn to invest with stocks",
       "url": "https://www.sheridancollege.ca/events/2026/11/learn-to-invest",
-      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/events/2026/08/insurance-webinar/learn-to-invest-with-stocks-1200x768.jpg?w=100%25&rev=943e7289abc94239bb3f5006344ac825&hash=53ED278E61CE43C7CD9302254092D218",
+      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/events/2026/08/insurance-webinar/learn-to-invest-with-stocks-1200x768.jpg?w=100%25&rev=943e7289abc94239bb3f5006344ac825&extension=webp&hash=D10372A2EF869DF4F79F720D212530D1",
       "list_date_box": {
         "month": "Nov",
         "day": "20"
@@ -661,7 +661,7 @@
       "organizations": [
         "Sheridan Filipino Student Association (Trafalgar)"
       ],
-      "rsvp_total": 1,
+      "rsvp_total": 3,
       "is_online": false,
       "month": "Nov",
       "day": "20",
@@ -779,6 +779,62 @@
       "time": "6:30 PM",
       "venue": "Sheridan College - Hazel McCallion Campus",
       "time_24h": "18:30"
+    },
+    {
+      "id": "clubs-338106",
+      "source": "clubs",
+      "source_name": "Sheridan Clubs",
+      "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
+      "start_date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "title": "League of Legends Team Tryout",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/338106",
+      "image_url": "https://se-images.campuslabs.ca/clink/images/1da4763c-4d64-475e-83e3-1551e19a76542ff8129b-092a-4854-bcae-c60d6d077b11.png?preset=med-w",
+      "list_date_box": {
+        "month": "Nov",
+        "day": "21"
+      },
+      "excerpt": "Sheridan Esports: League of Legends Team Tryouts Sheridan Esports is holding tryouts for its League of Legends team. There are no minimum rank requirements, and every signup will be considered…",
+      "last_occurrence_ends_at": "2026-11-22T04:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-11-21",
+          "date_text": "Saturday, November 21, 2026",
+          "time_12h": "8:00 PM",
+          "time_24h": "20:00"
+        }
+      ],
+      "address": {
+        "venue": "Online",
+        "lines": [
+          "Online"
+        ],
+        "map_url": null
+      },
+      "categories": [
+        "Athletic",
+        "Performance",
+        "Social",
+        "Athletics",
+        "Online"
+      ],
+      "tags": [
+        "Sheridan Esports (All-campus)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=League%20of%20Legends%20Team%20Tryout&dates=20261122T010000Z/20261122T040000Z&location=Online",
+      "ics_url": null,
+      "description": "Sheridan Esports: League of Legends Team Tryouts\nSheridan Esports is holding tryouts for its League of Legends team. There are no minimum rank requirements, and every signup will be considered, whether you’re a seasoned competitive player or just love the game and want to play on a team.\nTo apply, fill out the tryout form with your OP.GG, any alt accounts, your peak and current rank, and any previous team experience. Please note that players are expected to be available on most weekends during the Winter and Summer semesters for practices and matches. https://form.jotform.com/263026341032039\nJoin the Sheridan Esports Discord to stay updated on tryout dates and announcements: https://discord.gg/Mh5kZpH8ch",
+      "engage_id": "338106",
+      "organizations": [
+        "Sheridan Esports (All-campus)"
+      ],
+      "rsvp_total": 0,
+      "is_online": true,
+      "month": "Nov",
+      "day": "21",
+      "time": "8:00 PM",
+      "venue": "Online",
+      "time_24h": "20:00"
     },
     {
       "id": "clubs-337647",
@@ -984,6 +1040,58 @@
       "time": "3:00 PM",
       "venue": "Sheridan College - J208",
       "time_24h": "15:00"
+    },
+    {
+      "id": "clubs-338108",
+      "source": "clubs",
+      "source_name": "Sheridan Clubs",
+      "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
+      "start_date": "2026-11-25",
+      "end_date": "2026-11-25",
+      "title": "Satsang@Sheridan",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/338108",
+      "image_url": "https://static.campuslabsengage.com/discovery/images/events/social.jpg",
+      "list_date_box": {
+        "month": "Nov",
+        "day": "25"
+      },
+      "excerpt": "November month gathering",
+      "last_occurrence_ends_at": "2026-11-26T03:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-11-25",
+          "date_text": "Wednesday, November 25, 2026",
+          "time_12h": "7:00 PM",
+          "time_24h": "19:00"
+        }
+      ],
+      "address": {
+        "venue": "Sheridan College Davis Campus",
+        "lines": [
+          "Sheridan College Davis Campus"
+        ],
+        "map_url": "http://maps.google.com?q=43.65599,-79.7372"
+      },
+      "categories": [
+        "Social"
+      ],
+      "tags": [
+        "Satsang (Davis)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Satsang%40Sheridan&dates=20261126T000000Z/20261126T030000Z&location=Sheridan%20College%20Davis%20Campus",
+      "ics_url": null,
+      "description": "November month gathering",
+      "engage_id": "338108",
+      "organizations": [
+        "Satsang (Davis)"
+      ],
+      "rsvp_total": 0,
+      "is_online": false,
+      "month": "Nov",
+      "day": "25",
+      "time": "7:00 PM",
+      "venue": "Sheridan College Davis Campus",
+      "time_24h": "19:00"
     },
     {
       "id": "ssu-drag-show-conversation-with-sanjina-dabish-traf-2026",
@@ -1229,6 +1337,159 @@
       "time": "12:00 PM",
       "venue": "Trafalgar Campus",
       "time_24h": "12:00"
+    },
+    {
+      "id": "radio-hot-chocolate-jazz-night-2026-12-03",
+      "source": "radio",
+      "source_name": "SheridanLife Radio",
+      "source_url": "https://www.sheridanliferadio.ca/events",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-03",
+      "title": "Hot Chocolate Jazz Night",
+      "url": "https://www.sheridanliferadio.ca/events",
+      "image_url": null,
+      "list_date_box": {
+        "month": "Dec",
+        "day": "3"
+      },
+      "excerpt": "Hey Sheridan! The festivities are in full swing with this year’s Hot Chocolate Jazz Night! Spend a relaxing night with The Tavares Trio at The Marquee on Thursday, December 3rd, from 6 pm - 9 pm.!…",
+      "last_occurrence_ends_at": "2026-12-04T02:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-12-03",
+          "date_text": "Thursday, December 3, 2026",
+          "time_12h": "6:00 PM",
+          "time_24h": "18:00"
+        }
+      ],
+      "address": {
+        "venue": "Trafalgar Campus",
+        "lines": [
+          "Trafalgar Campus",
+          "1430 Trafalgar Rd, Ontario, ON L6H 2L1, Canada"
+        ],
+        "map_url": "http://maps.google.com?q=1430%20Trafalgar%20Rd%2C%20Ontario%2C%20ON%20L6H%202L1%2C%20Canada"
+      },
+      "categories": [],
+      "tags": [
+        "Trafalgar Campus"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Hot%20Chocolate%20Jazz%20Night&dates=20261203T230000Z/20261204T020000Z&location=Trafalgar%20Campus%2C%201430%20Trafalgar%20Rd%2C%20Ontario%2C%20ON%20L6H%202L1%2C%20Canada",
+      "ics_url": "https://calendar.google.com/calendar/ical/032e2f554e4e3c99b91c6313aa763070ca45ad8f6af9cbcc1178962fa428103e%40group.calendar.google.com/public/basic.ics",
+      "description": "Hey Sheridan! The festivities are in full swing with this year’s Hot Chocolate Jazz Night! Spend a relaxing night with The Tavares Trio at The Marquee on Thursday, December 3rd, from 6 pm - 9 pm.! Serving hot cocoa, cookies, and live jazz music to deliver an unforgettable experience! 🍪☕️ Unwind with your friends in a cozy lounge, play board games while listening to soulful live music, and be transported back to the golden era of jazz! 🎺🎷 🔗 🎟️ RSVP now: https://www.eventbrite.ca/e/slr-presents-hot-chocolate-jazz-night-at-the-marquee-tickets-2004718962382 ~ A voucher for a 10\" decorated cake with a max value of approx. $75 from N othing Bundt Cakes ~ A $30 gift card from S upermoon Japanese Cheesecakes ~ A $25 gift card from T he Sobr Market ~ A gift certificate to receive a free cookie from C innys Sweets ~ Two 10-class passes from S partan Krav Maga Also, the first 20 ticket-holding guests will receive a custom-made cookie from T ada Treats! 🍪 This event is FREE and open to all Sheridan students! Can’t wait to see you there! ❄️🎶",
+      "is_online": false,
+      "month": "Dec",
+      "day": "3",
+      "time": "6:00 PM",
+      "venue": "Trafalgar Campus",
+      "time_24h": "18:00"
+    },
+    {
+      "id": "clubs-338131",
+      "source": "clubs",
+      "source_name": "Sheridan Clubs",
+      "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-04",
+      "title": "ADHD end of term gathering",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/338131",
+      "image_url": "https://static.campuslabsengage.com/discovery/images/events/social.jpg",
+      "list_date_box": {
+        "month": "Dec",
+        "day": "4"
+      },
+      "excerpt": "Pizza party for before fall term is over and winter break starts",
+      "last_occurrence_ends_at": "2026-12-04T20:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-12-04",
+          "date_text": "Friday, December 4, 2026",
+          "time_12h": "12:00 PM",
+          "time_24h": "12:00"
+        }
+      ],
+      "address": {
+        "venue": "Trafalgar",
+        "lines": [
+          "Trafalgar"
+        ],
+        "map_url": "http://maps.google.com?q=Trafalgar"
+      },
+      "categories": [
+        "Social"
+      ],
+      "tags": [
+        "Free Food",
+        "ADHD Club Sheridan (All-Campus)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=ADHD%20end%20of%20term%20gathering&dates=20261204T170000Z/20261204T200000Z&location=Trafalgar",
+      "ics_url": null,
+      "description": "Pizza party for before fall term is over and winter break starts",
+      "engage_id": "338131",
+      "organizations": [
+        "ADHD Club Sheridan (All-Campus)"
+      ],
+      "rsvp_total": 5,
+      "is_online": false,
+      "month": "Dec",
+      "day": "4",
+      "time": "12:00 PM",
+      "venue": "Trafalgar",
+      "time_24h": "12:00"
+    },
+    {
+      "id": "clubs-338130",
+      "source": "clubs",
+      "source_name": "Sheridan Clubs",
+      "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-04",
+      "title": "Blender Workshop: Make Your Own Low-poly Pokémon",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/338130",
+      "image_url": "https://se-images.campuslabs.ca/clink/images/a64c1a54-2a48-4bae-92a3-6b28afb34c3c10b8aa3b-59e0-421c-8d40-feb2c3cd749c.png?preset=med-w",
+      "list_date_box": {
+        "month": "Dec",
+        "day": "4"
+      },
+      "excerpt": "Learn the basics of the 3D modelling platform Blender by creating your own low-poly Pokémon! Choose your starter Pokémon to navigate the Blender interface, create basic geometry, and learn to use…",
+      "last_occurrence_ends_at": "2026-12-04T23:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-12-04",
+          "date_text": "Friday, December 4, 2026",
+          "time_12h": "4:00 PM",
+          "time_24h": "16:00"
+        }
+      ],
+      "address": {
+        "venue": "Trafalgar Campus",
+        "lines": [
+          "Trafalgar Campus"
+        ],
+        "map_url": "http://maps.google.com?q=43.46906,-79.70004"
+      },
+      "categories": [
+        "Academic/Educational",
+        "Workshop",
+        "Arts"
+      ],
+      "tags": [
+        "Creative Technologies Club (Trafalgar)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Blender%20Workshop%3A%20Make%20Your%20Own%20Low-poly%20Pok%C3%A9mon&dates=20261204T210000Z/20261204T230000Z&location=Trafalgar%20Campus",
+      "ics_url": null,
+      "description": "Learn the basics of the 3D modelling platform Blender by creating your own low-poly Pokémon!\nChoose your starter Pokémon to navigate the Blender interface, create basic geometry, and learn to use grease pencil during this beginner workshop.\nNote: • No experience needed • Bring your own device with Blender installed (it's free!) • A drawing tablet or mouse is recommended but not mandatory",
+      "engage_id": "338130",
+      "organizations": [
+        "Creative Technologies Club (Trafalgar)"
+      ],
+      "rsvp_total": 1,
+      "is_online": false,
+      "month": "Dec",
+      "day": "4",
+      "time": "4:00 PM",
+      "venue": "Trafalgar Campus",
+      "time_24h": "16:00"
     },
     {
       "id": "theatre-company",

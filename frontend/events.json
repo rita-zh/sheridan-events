@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-22T18:27:36+00:00",
-  "generated_at": "2026-11-22T18:27:36+00:00",
+  "last_updated": "2026-11-23T22:35:09+00:00",
+  "generated_at": "2026-11-23T22:35:09+00:00",
   "sources": {
     "ssu": {
       "name": "SSU",
       "source_url": "https://www.thessu.ca/events",
-      "last_attempt": "2026-11-22T18:27:36+00:00",
-      "last_success": "2026-11-22T18:27:36+00:00",
+      "last_attempt": "2026-11-23T22:35:09+00:00",
+      "last_success": "2026-11-23T22:35:09+00:00",
       "status": "ok",
       "error": null,
       "count": 5
@@ -15,26 +15,26 @@
     "clubs": {
       "name": "Sheridan Clubs",
       "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
-      "last_attempt": "2026-11-22T18:27:36+00:00",
-      "last_success": "2026-11-22T18:27:36+00:00",
+      "last_attempt": "2026-11-23T22:35:09+00:00",
+      "last_success": "2026-11-23T22:35:09+00:00",
       "status": "ok",
       "error": null,
-      "count": 10
+      "count": 11
     },
     "edge": {
       "name": "EDGE",
       "source_url": "https://www.eventbrite.ca/o/edge-13162231152",
-      "last_attempt": "2026-11-22T18:27:36+00:00",
-      "last_success": "2026-11-22T18:27:36+00:00",
+      "last_attempt": "2026-11-23T22:35:09+00:00",
+      "last_success": "2026-11-23T22:35:09+00:00",
       "status": "ok",
       "error": null,
-      "count": 2
+      "count": 1
     },
     "sheridan": {
       "name": "Sheridan College",
       "source_url": "https://www.sheridancollege.ca/events",
-      "last_attempt": "2026-11-22T18:27:36+00:00",
-      "last_success": "2026-11-22T18:27:36+00:00",
+      "last_attempt": "2026-11-23T22:35:09+00:00",
+      "last_success": "2026-11-23T22:35:09+00:00",
       "status": "ok",
       "error": null,
       "count": 1
@@ -42,8 +42,8 @@
     "theatre": {
       "name": "Theatre Sheridan",
       "source_url": "https://www.sheridancollege.ca/theatre/whats-on",
-      "last_attempt": "2026-11-22T18:27:36+00:00",
-      "last_success": "2026-11-22T18:27:36+00:00",
+      "last_attempt": "2026-11-23T22:35:09+00:00",
+      "last_success": "2026-11-23T22:35:09+00:00",
       "status": "ok",
       "error": null,
       "count": 6
@@ -51,8 +51,8 @@
     "radio": {
       "name": "SheridanLife Radio",
       "source_url": "https://www.sheridanliferadio.ca/events",
-      "last_attempt": "2026-11-22T18:27:36+00:00",
-      "last_success": "2026-11-22T18:27:36+00:00",
+      "last_attempt": "2026-11-23T22:35:09+00:00",
+      "last_success": "2026-11-23T22:35:09+00:00",
       "status": "ok",
       "error": null,
       "count": 5
@@ -60,59 +60,6 @@
   },
   "count": 29,
   "events": [
-    {
-      "id": "edge-thrive-sheridan-edges-signature-entrepreneurship-program-fall26-tickets-1996744809476",
-      "source": "edge",
-      "source_name": "EDGE",
-      "source_url": "https://www.eventbrite.ca/o/edge-13162231152",
-      "start_date": "2026-10-05",
-      "end_date": "2026-11-22",
-      "title": "Thrive - Sheridan EDGE's Signature Entrepreneurship Program (Fall'26)",
-      "url": "https://www.eventbrite.ca/e/thrive-sheridan-edges-signature-entrepreneurship-program-fall26-tickets-1996744809476",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190317861%2F205732746396%2F1%2Foriginal.20260804-201443?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=691e01a70b0b25ed202cd2ab96e74681",
-      "list_date_box": {
-        "month": "Oct",
-        "day": "5"
-      },
-      "excerpt": "Sheridan EDGE’s signature program for Sheridan students to develop venture ideas through 1:1 mentorship sessions with experienced mentors.",
-      "last_occurrence_ends_at": "2026-11-22T21:00:00+00:00",
-      "occurrences": [
-        {
-          "date": "2026-10-05",
-          "date_text": "Monday, October 5, 2026",
-          "time_12h": "9:00 AM",
-          "time_24h": "09:00"
-        }
-      ],
-      "address": {
-        "venue": "Online",
-        "lines": [
-          "Online"
-        ],
-        "map_url": null
-      },
-      "categories": [
-        "FREE",
-        "Online"
-      ],
-      "tags": [
-        "Business & Professional",
-        "Other"
-      ],
-      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Thrive%20-%20Sheridan%20EDGE%27s%20Signature%20Entrepreneurship%20Program%20%28Fall%2726%29&dates=20261005T130000Z/20261122T210000Z&location=Online",
-      "ics_url": null,
-      "description": "This program is exclusively for Sheridan students & alumni only.\nFree for Sheridan Students & Alumni | 2 months (7sessions) | Hybrid program\nThrive is an application-based hybrid program where Sheridan students develop business ideas and build practical entrepreneurial skills. Through one-on-one mentorship, participants strengthen the foundations of their ventures by refining ideas and building clear business models.\nPlease review application process to apply. Registering on Eventbrite alone does not complete your application. To apply, please submit your application using the link found in the Application Process section below.\nWho should apply\nSheridan students or alumni who want to:\nDevelop an entrepreneurial mindset\nRefine business concepts and models\nCreate social impact through their ideas\nBuild strong business plans and conduct market research\nAccelerate the development of their ventures\nWhat to expect\nWeekly one-on-one virtual mentorship sessions with a mentor\nAccess to additional industry mentors when specialized guidance is needed\nOnline resources and tools through Google Classroom\nFinal pitch presentation\nBenefits to Students\nPersonalized mentorship: One-on-one guidance from experienced mentors to refine ideas and navigate challenges.\nHands-on learning: Practical activities focused on building business plans and developing minimum viable products (MVPs).\nNetworking opportunities: Connections with peers, industry experts, and faculty advisors.\nCCR credit and certification: Recognition through a certificate and Co-Curricular Record (CCR).\nLaunch support: Structured guidance that helps move ideas from concept to execution.\nLearning modules: Free access to entrepreneurship and venture development resources.\nEntrepreneurial community: Join a network of aspiring entrepreneurs and changemakers.\nCoworking access : Pre-approved access to Sheridan EDGE coworking spaces.\nSkill development: Opportunities to strengthen pitching and sales skills\nApplication Process\nApplications open every term (Winter, Spring/Summer, Fall) and are reviewed on a rolling basis until all spots are filled.\nApplication Open Date: 4 th August 2026 (Monday)\nApplication Close Date: 15th September 2026 (Tuesday)\nSelection Criteria:\nIdea clarity: The idea addresses a clear problem or opportunity.\nImpact: The venture demonstrates social impact and aligns with the United Nations Sustainable Development Goals (SDGs).\nApplication quality: The application is complete and clearly written.\nCommitment: Applicants commit to seven mentorship sessions and weekly program work.\nMotivation: Applicants demonstrate strong interest in completing the program.\nPlease submit the complete application form to be considered.\nTo apply for Fall 2026 Cohort, click here\nHosts\nSheridan EDGE\nEDGE is a vibrant community of people who believe entrepreneurship can create lasting change in society. It’s also a hub for impact entrepreneurs to grow their ventures, collaborate and develop new skills. Impact entrepreneurs, talented students, experienced faculty and like-minded community and industry collaborators work together at EDGE to amplify social and economic impact. We’re an integral part of Sheridan’s Academic & Industry Integrations (aii) division that connects education and industry to empower learner success, strengthen partnerships and advance academic excellence. Visit https://edge.sheridancollege.ca\nDISCLAIMER\nImportant Notes\nThis is a free program. Apply now to be eligible for screening.\nRegistering on Eventbrite alone does not complete your application. To apply, please submit your application\nIf you require any accommodation to apply for or to ensure your full participation in this program, please let us know at edge.students@sheridancollege.ca\nMedia Consent: Screenshots, photography and video recordings may be taken during this program. Your image may be used in printed and electronic publications for promotional and educational purposes and may be made available to the media and other third parties or published on the Internet. By registering for any of our events/programs, you understand and acknowledge that your image may be taken and used at our discretion. If you have concerns about your image being used for these purposes, please speak to one of the organizers.\nMore Programs and Events\nTo stay in the loop, sign up for our newsletter.",
-      "eventbrite_id": "1996744809476",
-      "is_online": true,
-      "is_cancelled": false,
-      "price": "Free",
-      "sales_status": "Sold out",
-      "month": "Oct",
-      "day": "5",
-      "time": "9:00 AM",
-      "venue": "Online",
-      "time_24h": "09:00"
-    },
     {
       "id": "sheridan-navigating-osap-winter",
       "source": "sheridan",
@@ -468,7 +415,7 @@
       "organizations": [
         "Diagnostic Medical Imaging Student Association (Davis)"
       ],
-      "rsvp_total": 4,
+      "rsvp_total": 6,
       "is_online": false,
       "month": "Nov",
       "day": "27",
@@ -525,6 +472,62 @@
       "time": "7:00 PM",
       "venue": "The Marquee",
       "time_24h": "19:00"
+    },
+    {
+      "id": "clubs-338513",
+      "source": "clubs",
+      "source_name": "Sheridan Clubs",
+      "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
+      "start_date": "2026-11-30",
+      "end_date": "2026-11-30",
+      "title": "Zine Binding Workshop",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/338513",
+      "image_url": "https://static.campuslabsengage.com/discovery/images/events/learning.jpg",
+      "list_date_box": {
+        "month": "Nov",
+        "day": "30"
+      },
+      "excerpt": "Come join Zine Club and The Fashion & Sewing Club in this mini-workshop on how to create a mini zine, and how to bind it together with sewing materials! Materials will be provided alongside snacks &…",
+      "last_occurrence_ends_at": "2026-12-01T02:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-11-30",
+          "date_text": "Monday, November 30, 2026",
+          "time_12h": "6:00 PM",
+          "time_24h": "18:00"
+        }
+      ],
+      "address": {
+        "venue": "D207 at Sheridan College - Trafalgar Campus",
+        "lines": [
+          "D207 at Sheridan College - Trafalgar Campus"
+        ],
+        "map_url": "http://maps.google.com?q=43.46906,-79.70004"
+      },
+      "categories": [
+        "Workshop",
+        "Thoughtful Learning"
+      ],
+      "tags": [
+        "Free Food",
+        "ZINE CLUB (Trafalgar)",
+        "The Fashion & Sewing Club (Trafalgar)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Zine%20Binding%20Workshop&dates=20261130T230000Z/20261201T020000Z&location=D207%20at%20Sheridan%20College%20-%20Trafalgar%20Campus",
+      "ics_url": null,
+      "description": "Come join Zine Club and The Fashion & Sewing Club in this mini-workshop on how to create a mini zine, and how to bind it together with sewing materials! Materials will be provided alongside snacks & drinks! Spots are first come, first serve.",
+      "engage_id": "338513",
+      "organizations": [
+        "ZINE CLUB (Trafalgar)",
+        "The Fashion & Sewing Club (Trafalgar)"
+      ],
+      "rsvp_total": 1,
+      "is_online": false,
+      "month": "Nov",
+      "day": "30",
+      "time": "6:00 PM",
+      "venue": "D207 at Sheridan College - Trafalgar Campus",
+      "time_24h": "18:00"
     },
     {
       "id": "ssu-winter-market-december-2026",
@@ -618,7 +621,7 @@
       "organizations": [
         "AWS Student Builder Group"
       ],
-      "rsvp_total": 1,
+      "rsvp_total": 2,
       "is_online": false,
       "month": "Dec",
       "day": "1",
@@ -860,7 +863,7 @@
       "tags": [],
       "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Desi%20Jam%20%28DAV%29&dates=20261204T020000Z/20261204T060000Z&location=The%20Den%2C%20Davis%20Campus%2C%207899%20McLaughlin%20Road%20South%2C%20Brampton%2C%20ON%2C%20L6Y%205H9",
       "ics_url": "https://www.thessu.ca/ssu-events/desi-jam-december-2026?format=ical",
-      "description": "GET YOUR TICKETS NOW | $10/ticket | All-Ages | Sheridan Students ONLY | Each attendee must have their own ticket\nDance the Night Away at Desi Jam 🎶🕺\nDesi Jam is back! Join us for a fun, magical evening of Bollywood and Punjabi hits, plus high-energy South Indian, North-East, and Urban Desi and hip-hop tracks, all playing under the lights of The Den. 🎶\nDecember 3rd\nLive entertainment from Sheridan Alumni Bhangra Dance Team and DJ Pulse Toronto will keep the dance floor moving all night. Food and non-alcoholic drinks are free, so all that’s left to do is bring your best moves and good vibes. Grab your tickets now! 🎟️\nMEET DJ PULSE TORONTO\nSpecializing in Bollywood Music, DJ Pulse Toronto has been part of Movie Productions & Official after-party DJ of various Bollywood movies such as 'Once Upon A Time In Mumbai - Doobara, Gunday and Aiyaary. He has performed in various nightclubs across Dubai, Oman, Bahrain, Qatar, India and Canada. He has also been featured as a guest DJ on local radio & FM stations in the Middle East. Additionally, he has performed with most of the top DJs of India.\nMEET OMRY EVENTS (Sheridan Alumni Bhangra Dance Team)\nOmry Events, with over 21 years of experience in Lebanon, Gulf, Canada, New Jersey, New York, and Toronto, shares a passion for sound, rhythm, and beats. Each member contributes a unique musical aesthetic to the band, allowing us to explore various genres, including traditional Dabke dancing, and creatively mash up influences over the years.\nHere’s What You Should Know About Desi Jam (DAV)\nThis event will take place on Thursday, December 3rd, 2026, at The Den on Davis Campus from 9:00 PM to 1:00 AM.\nSheridan students must bring their Onecard.\nEvery attendee must have purchased tickets.\nNO BAGS – Coat check is mandatory & no backpacks will be allowed inside the venue. No exceptions. ( No bags will be stored in coat check, and the SSU is not responsible for helping you figure out what to do with your bags ). Small purses/crossbody bags are allowed and will be searched by security.\nSheridan Student Union is committed to providing accommodations for our events to everyone. If you require any additional support, please feel free to contact danny.connelly@sheridancollege.ca Please specify the [Event Name] you have questions about in your email subject line .\nSheridan Student Union is committed to providing accommodations for our events to everyone. If you require any additional support, please feel free to contact danny.connelly@sheridancollege.ca\nPlease specify the [Event Name] you have questions about in your email subject line .\nHouse Rules & Student Code of Conduct Sheridan Student Union is committed to creating spaces safe and welcoming spaces for all. The Student Code of Conduct is applicable to all students and guests. Any intolerant behaviour, discrimination or harassment towards fellow students, staff or external partners will not be tolerated. Read the House Rules & Student Code of Conduct\nHouse Rules & Student Code of Conduct\nSheridan Student Union is committed to creating spaces safe and welcoming spaces for all. The Student Code of Conduct is applicable to all students and guests. Any intolerant behaviour, discrimination or harassment towards fellow students, staff or external partners will not be tolerated. Read the House Rules & Student Code of Conduct\nNotice of Photography Notice of Filming and Photography: Please note that photography, audio and video recording may occur at this event. By registering for and/or attending this event, you consent to such recorded media and its publication, release, reproduction or exhibition at the discretion of Sheridan Student Union Inc.\nNotice of Photography\nNotice of Filming and Photography: Please note that photography, audio and video recording may occur at this event. By registering for and/or attending this event, you consent to such recorded media and its publication, release, reproduction or exhibition at the discretion of Sheridan Student Union Inc.\nMORE EVENTS…\nGet ready for the tea AND the slay! 💅🏽✨ Join Canada’s Drag Race star Sanjina DaBish Queen and Sheridan alum Jessie James at The Marquee on November 27 for an unforgettable evening of drag, real talk, and fabulous performances! 🪩 Grab your tickets!\nAs winter settles softly over campus, the SSU invites you into our first-ever Winter Market, a festive gathering across all campuses. Sip steaming drinks from SSU Hungry Café, hunt for good produce at the Farmers Market, build gingerbread houses and craft by hand, and try your luck in a raffle full of prizes worth wishing on.\nCalling all Sheridan Students to showcase their talent and stand a chance to win up to $100 at the Spotlight Open Mic happening on December 1st, 2026, at The Marquee (TRAF). Limited spots available. Register Now! What better than the holiday season to enjoy of spectacular performances! 🎤\nDesi Jam is back at The Den on December 3rd, from 9 P.M. onwards! 🎶 Dance to Bollywood, Punjabi, and Urban Desi hits with free food and drinks. Grab your tickets now.\nReady to kick off the holiday season? 🎄 Bring your little Santa helpers to the HMC Campus for a festive morning filled with delicious treats, holiday fun, and a special visit from Santa Claus himself! 🎅 Don’t miss out on the holiday magic. Register now! ⭐️\nWant the inside scoop on events?\nSign up with your preferred email to find out what's coming up before anyone else!\nDon't worry! We aren’t fans of spam and won't share your information with anyone. Promise.",
+      "description": "GET YOUR TICKETS NOW | $10/ticket | All-Ages | Sheridan Students ONLY | Each attendee must have their own ticket\nDance the Night Away at Desi Jam 🎶🕺\nDesi Jam is back! Join us for a fun, magical evening of Bollywood and Punjabi hits, plus high-energy South Indian, North-East, and Urban Desi and hip-hop tracks, all playing under the lights of The Den. 🎶\nDecember 3rd\nLive entertainment from Sheridan Alumni Bhangra Dance Team and DJ Pulse Toronto will keep the dance floor moving all night. Food and non-alcoholic drinks are free, so all that’s left to do is bring your best moves and good vibes. Grab your tickets now! 🎟️\nMEET DJ PULSE TORONTO\nSpecializing in Bollywood Music, DJ Pulse Toronto has been part of Movie Productions & Official after-party DJ of various Bollywood movies such as 'Once Upon A Time In Mumbai - Doobara, Gunday and Aiyaary. He has performed in various nightclubs across Dubai, Oman, Bahrain, Qatar, India and Canada. He has also been featured as a guest DJ on local radio & FM stations in the Middle East. Additionally, he has performed with most of the top DJs of India.\nHere’s What You Should Know About Desi Jam (DAV)\nThis event will take place on Thursday, December 3rd, 2026, at The Den on Davis Campus from 9:00 PM to 1:00 AM.\nSheridan students must bring their Onecard.\nEvery attendee must have purchased tickets.\nNO BAGS – Coat check is mandatory & no backpacks will be allowed inside the venue. No exceptions. ( No bags will be stored in coat check, and the SSU is not responsible for helping you figure out what to do with your bags ). Small purses/crossbody bags are allowed and will be searched by security.\nSheridan Student Union is committed to providing accommodations for our events to everyone. If you require any additional support, please feel free to contact danny.connelly@sheridancollege.ca Please specify the [Event Name] you have questions about in your email subject line .\nSheridan Student Union is committed to providing accommodations for our events to everyone. If you require any additional support, please feel free to contact danny.connelly@sheridancollege.ca\nPlease specify the [Event Name] you have questions about in your email subject line .\nHouse Rules & Student Code of Conduct Sheridan Student Union is committed to creating spaces safe and welcoming spaces for all. The Student Code of Conduct is applicable to all students and guests. Any intolerant behaviour, discrimination or harassment towards fellow students, staff or external partners will not be tolerated. Read the House Rules & Student Code of Conduct\nHouse Rules & Student Code of Conduct\nSheridan Student Union is committed to creating spaces safe and welcoming spaces for all. The Student Code of Conduct is applicable to all students and guests. Any intolerant behaviour, discrimination or harassment towards fellow students, staff or external partners will not be tolerated. Read the House Rules & Student Code of Conduct\nNotice of Photography Notice of Filming and Photography: Please note that photography, audio and video recording may occur at this event. By registering for and/or attending this event, you consent to such recorded media and its publication, release, reproduction or exhibition at the discretion of Sheridan Student Union Inc.\nNotice of Photography\nNotice of Filming and Photography: Please note that photography, audio and video recording may occur at this event. By registering for and/or attending this event, you consent to such recorded media and its publication, release, reproduction or exhibition at the discretion of Sheridan Student Union Inc.\nMORE EVENTS…\nGet ready for the tea AND the slay! 💅🏽✨ Join Canada’s Drag Race star Sanjina DaBish Queen and Sheridan alum Jessie James at The Marquee on November 27 for an unforgettable evening of drag, real talk, and fabulous performances! 🪩 Grab your tickets!\nAs winter settles softly over campus, the SSU invites you into our first-ever Winter Market, a festive gathering across all campuses. Sip steaming drinks from SSU Hungry Café, hunt for good produce at the Farmers Market, build gingerbread houses and craft by hand, and try your luck in a raffle full of prizes worth wishing on.\nCalling all Sheridan Students to showcase their talent and stand a chance to win up to $100 at the Spotlight Open Mic happening on December 1st, 2026, at The Marquee (TRAF). Limited spots available. Register Now! What better than the holiday season to enjoy of spectacular performances! 🎤\nDesi Jam is back at The Den on December 3rd, from 9 P.M. onwards! 🎶 Dance to Bollywood, Punjabi, and Urban Desi hits with free food and drinks. Grab your tickets now.\nReady to kick off the holiday season? 🎄 Bring your little Santa helpers to the HMC Campus for a festive morning filled with delicious treats, holiday fun, and a special visit from Santa Claus himself! 🎅 Don’t miss out on the holiday magic. Register now! ⭐️\nWant the inside scoop on events?\nSign up with your preferred email to find out what's coming up before anyone else!\nDon't worry! We aren’t fans of spam and won't share your information with anyone. Promise.",
       "month": "Dec",
       "day": "3",
       "time": "9:00 PM",
@@ -912,7 +915,7 @@
       "organizations": [
         "ADHD Club Sheridan (All-Campus)"
       ],
-      "rsvp_total": 12,
+      "rsvp_total": 13,
       "is_online": false,
       "month": "Dec",
       "day": "4",
@@ -966,7 +969,7 @@
       "organizations": [
         "Creative Technologies Club (Trafalgar)"
       ],
-      "rsvp_total": 9,
+      "rsvp_total": 11,
       "is_online": false,
       "month": "Dec",
       "day": "4",
@@ -1233,7 +1236,7 @@
       ],
       "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=SSU%20Presents%3A%2012th%20Annual%20Family%20Holiday%20Party&dates=20261212T150000Z/20261212T190000Z&location=HMC%20C-Wing%2C%20first%20floor%2C%204180%20Duke%20of%20York%20Boulevard%2C%20Mississauga%2C%20ON%2C%20L5B%203W3",
       "ics_url": "https://www.thessu.ca/ssu-events/ssu-presents-12th-annual-family-holiday-party-2026?format=ical",
-      "description": "REGISTER NOW | FREE EVENT | All Ages | Sheridan Students, Staff, Faculty & Guest | Registration deadline is Friday, December 4th, 2026.\nCelebrate the holidays with the SSU 🎄\n’Tis the season to spread some joy and celebrate the holidays! Join us for a morning filled with delicious brunch, festive treats, holiday fun, and who knows, maybe a surprise guest or two 👀 🎅 Get into the holiday spirit, share some festive cheer, and make magical memories with us! ❣️🎄\nDecember 12th\nOur 12th annual holiday party is all about spreading happiness and making little ones smile! If you have little Santa helpers ages 0–10, be sure to register and fill out the form by December 4th so they can receive a special holiday gift from Santa himself! 🎁\nHere’s What You Should Know About SSU Presents: 12th Annual Family Holiday Party\nThis event will take place on Tuesday, December 12th, in the C-Wing, first floor of the HMC Campus from 10:00 AM to 2:00 PM.\nOpen to Sheridan Students, Staff, Faculty & up to four guest.\nAll Sheridan students must bring their OneCard.\nSheridan Student Union is committed to providing accommodations for our events to everyone. If you require any additional support, please feel free to contact danny.connelly@sheridancollege.ca Please specify the [Event Name] you have questions about in your email subject line .\nSheridan Student Union is committed to providing accommodations for our events to everyone. If you require any additional support, please feel free to contact danny.connelly@sheridancollege.ca\nPlease specify the [Event Name] you have questions about in your email subject line .\nWhat To Expect At the 12th Annual Family Holiday Party! The opportunity to take photos with Santa Claus. 📸 Caricature & face painting artists 🧑‍🎨 Christmas magic show 🪄 Live Carolers singing your favourite Holiday tunes 🎶. Arts and Crafts for All Ages. 🎨 Full-catered meal from the North Pole Kitchen ️🎅 Surprise Gifts.\nWhat To Expect At the 12th Annual Family Holiday Party!\nThe opportunity to take photos with Santa Claus. 📸\nCaricature & face painting artists 🧑‍🎨\nChristmas magic show 🪄\nLive Carolers singing your favourite Holiday tunes 🎶.\nArts and Crafts for All Ages. 🎨\nFull-catered meal from the North Pole Kitchen ️🎅\nSurprise Gifts.\nHouse Rules & Student Code of Conduct Sheridan Student Union is committed to creating spaces safe and welcoming spaces for all. The Student Code of Conduct is applicable to all students and guests. Any intolerant behaviour, discrimination or harassment towards fellow students, staff or external partners will not be tolerated. Read the House Rules & Student Code of Conduct\nHouse Rules & Student Code of Conduct\nSheridan Student Union is committed to creating spaces safe and welcoming spaces for all. The Student Code of Conduct is applicable to all students and guests. Any intolerant behaviour, discrimination or harassment towards fellow students, staff or external partners will not be tolerated. Read the House Rules & Student Code of Conduct\nNotice of Photography Notice of Filming and Photography: Please note that photography, audio and video recording may occur at this event. By registering for and/or attending this event, you consent to such recorded media and its publication, release, reproduction or exhibition at the discretion of Sheridan Student Union Inc.\nNotice of Photography\nNotice of Filming and Photography: Please note that photography, audio and video recording may occur at this event. By registering for and/or attending this event, you consent to such recorded media and its publication, release, reproduction or exhibition at the discretion of Sheridan Student Union Inc.\nMORE EVENTS…\nGet ready for the tea AND the slay! 💅🏽✨ Join Canada’s Drag Race star Sanjina DaBish Queen and Sheridan alum Jessie James at The Marquee on November 27 for an unforgettable evening of drag, real talk, and fabulous performances! 🪩 Grab your tickets!\nAs winter settles softly over campus, the SSU invites you into our first-ever Winter Market, a festive gathering across all campuses. Sip steaming drinks from SSU Hungry Café, hunt for good produce at the Farmers Market, build gingerbread houses and craft by hand, and try your luck in a raffle full of prizes worth wishing on.\nCalling all Sheridan Students to showcase their talent and stand a chance to win up to $100 at the Spotlight Open Mic happening on December 1st, 2026, at The Marquee (TRAF). Limited spots available. Register Now! What better than the holiday season to enjoy of spectacular performances! 🎤\nDesi Jam is back at The Den on December 3rd, from 9 P.M. onwards! 🎶 Dance to Bollywood, Punjabi, and Urban Desi hits with free food and drinks. Grab your tickets now.\nReady to kick off the holiday season? 🎄 Bring your little Santa helpers to the HMC Campus for a festive morning filled with delicious treats, holiday fun, and a special visit from Santa Claus himself! 🎅 Don’t miss out on the holiday magic. Register now! ⭐️\nWant the inside scoop on events?\nSign up with your preferred email to find out what's coming up before anyone else!\nDon't worry! We aren’t fans of spam and won't share your information with anyone. Promise.",
+      "description": "REGISTER NOW | FREE EVENT | All Ages | Sheridan Students, Staff, Faculty & Guest | Registration deadline is Friday, December 4th, 2026.\nCelebrate the holidays with the SSU 🎄\n’Tis the season to spread some joy and celebrate the holidays! Join us for a morning filled with delicious brunch, festive treats, holiday fun, and who knows, maybe a surprise guest or two 👀 🎅 Get into the holiday spirit, share some festive cheer, and make magical memories with us! ❣️🎄\nDecember 12th\nOur 12th annual holiday party is all about spreading happiness and making little ones smile! If you have little Santa helpers ages 0–10, be sure to register and fill out the form by December 4th so they can receive a special holiday gift from Santa himself! 🎁\nHere’s What You Should Know About SSU Presents: 12th Annual Family Holiday Party\nThis event will take place on Tuesday, December 12th, in the C-Wing, first floor of the HMC Campus from 10:00 AM to 2:00 PM.\nOpen to Sheridan Students, Staff, Faculty & up to four guest.\nAll Sheridan students must bring their OneCard.\nSheridan Student Union is committed to providing accommodations for our events to everyone. If you require any additional support, please feel free to contact kimberly.moreira@sheridancollege.ca Please specify the [Event Name] you have questions about in your email subject line .\nSheridan Student Union is committed to providing accommodations for our events to everyone. If you require any additional support, please feel free to contact kimberly.moreira@sheridancollege.ca\nPlease specify the [Event Name] you have questions about in your email subject line .\nWhat To Expect At the 12th Annual Family Holiday Party! The opportunity to take photos with Santa Claus. 📸 Caricature & face painting artists 🧑‍🎨 Christmas magic show 🪄 Live Carolers singing your favourite Holiday tunes 🎶. Arts and Crafts for All Ages. 🎨 Full-catered meal from the North Pole Kitchen ️🎅 Surprise Gifts.\nWhat To Expect At the 12th Annual Family Holiday Party!\nThe opportunity to take photos with Santa Claus. 📸\nCaricature & face painting artists 🧑‍🎨\nChristmas magic show 🪄\nLive Carolers singing your favourite Holiday tunes 🎶.\nArts and Crafts for All Ages. 🎨\nFull-catered meal from the North Pole Kitchen ️🎅\nSurprise Gifts.\nHouse Rules & Student Code of Conduct Sheridan Student Union is committed to creating spaces safe and welcoming spaces for all. The Student Code of Conduct is applicable to all students and guests. Any intolerant behaviour, discrimination or harassment towards fellow students, staff or external partners will not be tolerated. Read the House Rules & Student Code of Conduct\nHouse Rules & Student Code of Conduct\nSheridan Student Union is committed to creating spaces safe and welcoming spaces for all. The Student Code of Conduct is applicable to all students and guests. Any intolerant behaviour, discrimination or harassment towards fellow students, staff or external partners will not be tolerated. Read the House Rules & Student Code of Conduct\nNotice of Photography Notice of Filming and Photography: Please note that photography, audio and video recording may occur at this event. By registering for and/or attending this event, you consent to such recorded media and its publication, release, reproduction or exhibition at the discretion of Sheridan Student Union Inc.\nNotice of Photography\nNotice of Filming and Photography: Please note that photography, audio and video recording may occur at this event. By registering for and/or attending this event, you consent to such recorded media and its publication, release, reproduction or exhibition at the discretion of Sheridan Student Union Inc.\nMORE EVENTS…\nGet ready for the tea AND the slay! 💅🏽✨ Join Canada’s Drag Race star Sanjina DaBish Queen and Sheridan alum Jessie James at The Marquee on November 27 for an unforgettable evening of drag, real talk, and fabulous performances! 🪩 Grab your tickets!\nAs winter settles softly over campus, the SSU invites you into our first-ever Winter Market, a festive gathering across all campuses. Sip steaming drinks from SSU Hungry Café, hunt for good produce at the Farmers Market, build gingerbread houses and craft by hand, and try your luck in a raffle full of prizes worth wishing on.\nCalling all Sheridan Students to showcase their talent and stand a chance to win up to $100 at the Spotlight Open Mic happening on December 1st, 2026, at The Marquee (TRAF). Limited spots available. Register Now! What better than the holiday season to enjoy of spectacular performances! 🎤\nDesi Jam is back at The Den on December 3rd, from 9 P.M. onwards! 🎶 Dance to Bollywood, Punjabi, and Urban Desi hits with free food and drinks. Grab your tickets now.\nReady to kick off the holiday season? 🎄 Bring your little Santa helpers to the HMC Campus for a festive morning filled with delicious treats, holiday fun, and a special visit from Santa Claus himself! 🎅 Don’t miss out on the holiday magic. Register now! ⭐️\nWant the inside scoop on events?\nSign up with your preferred email to find out what's coming up before anyone else!\nDon't worry! We aren’t fans of spam and won't share your information with anyone. Promise.",
       "month": "Dec",
       "day": "12",
       "time": "10:00 AM",
@@ -1332,7 +1335,7 @@
       "organizations": [
         "Sheridan Robotics Club (Davis)"
       ],
-      "rsvp_total": 4,
+      "rsvp_total": 5,
       "is_online": false,
       "month": "Dec",
       "day": "18",

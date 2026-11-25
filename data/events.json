@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-24T21:06:55+00:00",
-  "generated_at": "2026-11-24T21:06:55+00:00",
+  "last_updated": "2026-11-25T20:27:20+00:00",
+  "generated_at": "2026-11-25T20:27:20+00:00",
   "sources": {
     "ssu": {
       "name": "SSU",
       "source_url": "https://www.thessu.ca/events",
-      "last_attempt": "2026-11-24T21:06:55+00:00",
-      "last_success": "2026-11-24T21:06:55+00:00",
+      "last_attempt": "2026-11-25T20:27:20+00:00",
+      "last_success": "2026-11-25T20:27:20+00:00",
       "status": "ok",
       "error": null,
       "count": 5
@@ -15,8 +15,8 @@
     "clubs": {
       "name": "Sheridan Clubs",
       "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
-      "last_attempt": "2026-11-24T21:06:55+00:00",
-      "last_success": "2026-11-24T21:06:55+00:00",
+      "last_attempt": "2026-11-25T20:27:20+00:00",
+      "last_success": "2026-11-25T20:27:20+00:00",
       "status": "ok",
       "error": null,
       "count": 12
@@ -24,8 +24,8 @@
     "edge": {
       "name": "EDGE",
       "source_url": "https://www.eventbrite.ca/o/edge-13162231152",
-      "last_attempt": "2026-11-24T21:06:55+00:00",
-      "last_success": "2026-11-24T21:06:55+00:00",
+      "last_attempt": "2026-11-25T20:27:20+00:00",
+      "last_success": "2026-11-25T20:27:20+00:00",
       "status": "ok",
       "error": null,
       "count": 1
@@ -33,8 +33,8 @@
     "sheridan": {
       "name": "Sheridan College",
       "source_url": "https://www.sheridancollege.ca/events",
-      "last_attempt": "2026-11-24T21:06:55+00:00",
-      "last_success": "2026-11-24T21:06:55+00:00",
+      "last_attempt": "2026-11-25T20:27:20+00:00",
+      "last_success": "2026-11-25T20:27:20+00:00",
       "status": "ok",
       "error": null,
       "count": 1
@@ -42,8 +42,8 @@
     "theatre": {
       "name": "Theatre Sheridan",
       "source_url": "https://www.sheridancollege.ca/theatre/whats-on",
-      "last_attempt": "2026-11-24T21:06:55+00:00",
-      "last_success": "2026-11-24T21:06:55+00:00",
+      "last_attempt": "2026-11-25T20:27:20+00:00",
+      "last_success": "2026-11-25T20:27:20+00:00",
       "status": "ok",
       "error": null,
       "count": 6
@@ -51,8 +51,8 @@
     "radio": {
       "name": "SheridanLife Radio",
       "source_url": "https://www.sheridanliferadio.ca/events",
-      "last_attempt": "2026-11-24T21:06:55+00:00",
-      "last_success": "2026-11-24T21:06:55+00:00",
+      "last_attempt": "2026-11-25T20:27:20+00:00",
+      "last_success": "2026-11-25T20:27:20+00:00",
       "status": "ok",
       "error": null,
       "count": 5
@@ -114,59 +114,6 @@
       "time_24h": "13:00"
     },
     {
-      "id": "clubs-337647",
-      "source": "clubs",
-      "source_name": "Sheridan Clubs",
-      "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
-      "start_date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "title": "Cozy Scavenger Hunt",
-      "url": "https://sheridancollege.campuslabs.ca/engage/event/337647",
-      "image_url": "https://static.campuslabsengage.com/discovery/images/events/social.jpg",
-      "list_date_box": {
-        "month": "Nov",
-        "day": "24"
-      },
-      "excerpt": "Puzzles and brain-teasers, mind games and whirligigs, Sheridan you can have it all! Maker Lounge is hosting a scavenger hunt and we want YOU to find the pieces to the prize. Go from point to point…",
-      "last_occurrence_ends_at": "2026-11-24T23:00:00+00:00",
-      "occurrences": [
-        {
-          "date": "2026-11-24",
-          "date_text": "Tuesday, November 24, 2026",
-          "time_12h": "3:00 PM",
-          "time_24h": "15:00"
-        }
-      ],
-      "address": {
-        "venue": "Sheridan College, Trafalgar Campus",
-        "lines": [
-          "Sheridan College, Trafalgar Campus"
-        ],
-        "map_url": "http://maps.google.com?q=Sheridan%20College%2C%20Trafalgar%20Campus"
-      },
-      "categories": [
-        "Social"
-      ],
-      "tags": [
-        "Free Stuff",
-        "Maker Lounge (Trafalgar)"
-      ],
-      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Cozy%20Scavenger%20Hunt&dates=20261124T200000Z/20261124T230000Z&location=Sheridan%20College%2C%20Trafalgar%20Campus",
-      "ics_url": null,
-      "description": "Puzzles and brain-teasers, mind games and whirligigs, Sheridan you can have it all! Maker Lounge is hosting a scavenger hunt and we want YOU to find the pieces to the prize. Go from point to point and solve our puzzles to win big prizes!",
-      "engage_id": "337647",
-      "organizations": [
-        "Maker Lounge (Trafalgar)"
-      ],
-      "rsvp_total": 0,
-      "is_online": false,
-      "month": "Nov",
-      "day": "24",
-      "time": "3:00 PM",
-      "venue": "Sheridan College, Trafalgar Campus",
-      "time_24h": "15:00"
-    },
-    {
       "id": "edge-thrive-pitch-and-marketplace-tickets-2004718262288",
       "source": "edge",
       "source_name": "EDGE",
@@ -212,7 +159,7 @@
       "is_online": false,
       "is_cancelled": false,
       "price": "Free",
-      "sales_status": null,
+      "sales_status": "Sold out",
       "month": "Nov",
       "day": "25",
       "time": "11:00 AM",
@@ -769,13 +716,69 @@
       "organizations": [
         "Diversity in Animation: WIA Sheridan (Trafalgar)"
       ],
-      "rsvp_total": 11,
+      "rsvp_total": 13,
       "is_online": false,
       "month": "Dec",
       "day": "2",
       "time": "7:00 PM",
       "venue": "Trafalgar Campus J102",
       "time_24h": "19:00"
+    },
+    {
+      "id": "clubs-338711",
+      "source": "clubs",
+      "source_name": "Sheridan Clubs",
+      "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-03",
+      "title": "The Vault",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/338711",
+      "image_url": "https://static.campuslabsengage.com/discovery/images/events/learning.jpg",
+      "list_date_box": {
+        "month": "Dec",
+        "day": "3"
+      },
+      "excerpt": "The Vault is an interactive financial strategy challenge hosted in collaboration between Launchpad and Sheridan Finance Club. Students will work in teams of 4 to solve a series of puzzles and…",
+      "last_occurrence_ends_at": "2026-12-03T23:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-12-03",
+          "date_text": "Thursday, December 3, 2026",
+          "time_12h": "5:00 PM",
+          "time_24h": "17:00"
+        }
+      ],
+      "address": {
+        "venue": "Sheridan College - Hazel McCallion",
+        "lines": [
+          "Sheridan College - Hazel McCallion"
+        ],
+        "map_url": "http://maps.google.com?q=43.59107,-79.64676"
+      },
+      "categories": [
+        "Academic/Educational",
+        "Thoughtful Learning"
+      ],
+      "tags": [
+        "Free Food",
+        "Launchpad (HMC)",
+        "Sheridan Finance Club (HMC)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=The%20Vault&dates=20261203T220000Z/20261203T230000Z&location=Sheridan%20College%20-%20Hazel%20McCallion",
+      "ics_url": null,
+      "description": "The Vault is an interactive financial strategy challenge hosted in collaboration between Launchpad and Sheridan Finance Club. Students will work in teams of 4 to solve a series of puzzles and challenges involving financial technology, fraud detection, cybersecurity, compound interest, credit management, and entrepreneurship.\nEach team begins with a set amount of virtual money and must navigate five interactive stations to collect clues and unlock a final vault. Along the way, teams will encounter unexpected financial life events, make spending decisions, purchase hints, and manage their money strategically. The event combines elements of financial literacy, gamification, and entrepreneurship to create an engaging, hands-on learning experience.\nThe goal is to encourage students to develop practical financial skills, think critically, collaborate with others, and explore how financial technology connects to everyday decision-making.",
+      "engage_id": "338711",
+      "organizations": [
+        "Launchpad (HMC)",
+        "Sheridan Finance Club (HMC)"
+      ],
+      "rsvp_total": 1,
+      "is_online": false,
+      "month": "Dec",
+      "day": "3",
+      "time": "5:00 PM",
+      "venue": "Sheridan College - Hazel McCallion",
+      "time_24h": "17:00"
     },
     {
       "id": "radio-hot-chocolate-jazz-night-2026-12-03",
@@ -1337,7 +1340,7 @@
       "organizations": [
         "Sheridan Filipino Student Association (Trafalgar)"
       ],
-      "rsvp_total": 2,
+      "rsvp_total": 3,
       "is_online": false,
       "month": "Dec",
       "day": "18",

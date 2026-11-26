@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-25T20:27:20+00:00",
-  "generated_at": "2026-11-25T20:27:20+00:00",
+  "last_updated": "2026-11-26T20:06:44+00:00",
+  "generated_at": "2026-11-26T20:06:44+00:00",
   "sources": {
     "ssu": {
       "name": "SSU",
       "source_url": "https://www.thessu.ca/events",
-      "last_attempt": "2026-11-25T20:27:20+00:00",
-      "last_success": "2026-11-25T20:27:20+00:00",
+      "last_attempt": "2026-11-26T20:06:44+00:00",
+      "last_success": "2026-11-26T20:06:44+00:00",
       "status": "ok",
       "error": null,
       "count": 5
@@ -15,26 +15,26 @@
     "clubs": {
       "name": "Sheridan Clubs",
       "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
-      "last_attempt": "2026-11-25T20:27:20+00:00",
-      "last_success": "2026-11-25T20:27:20+00:00",
+      "last_attempt": "2026-11-26T20:06:44+00:00",
+      "last_success": "2026-11-26T20:06:44+00:00",
       "status": "ok",
       "error": null,
-      "count": 12
+      "count": 13
     },
     "edge": {
       "name": "EDGE",
       "source_url": "https://www.eventbrite.ca/o/edge-13162231152",
-      "last_attempt": "2026-11-25T20:27:20+00:00",
-      "last_success": "2026-11-25T20:27:20+00:00",
+      "last_attempt": "2026-11-26T20:06:44+00:00",
+      "last_success": "2026-11-26T20:06:44+00:00",
       "status": "ok",
       "error": null,
-      "count": 1
+      "count": 0
     },
     "sheridan": {
       "name": "Sheridan College",
       "source_url": "https://www.sheridancollege.ca/events",
-      "last_attempt": "2026-11-25T20:27:20+00:00",
-      "last_success": "2026-11-25T20:27:20+00:00",
+      "last_attempt": "2026-11-26T20:06:44+00:00",
+      "last_success": "2026-11-26T20:06:44+00:00",
       "status": "ok",
       "error": null,
       "count": 1
@@ -42,23 +42,23 @@
     "theatre": {
       "name": "Theatre Sheridan",
       "source_url": "https://www.sheridancollege.ca/theatre/whats-on",
-      "last_attempt": "2026-11-25T20:27:20+00:00",
-      "last_success": "2026-11-25T20:27:20+00:00",
+      "last_attempt": "2026-11-26T20:06:44+00:00",
+      "last_success": "2026-11-26T20:06:44+00:00",
       "status": "ok",
       "error": null,
-      "count": 6
+      "count": 7
     },
     "radio": {
       "name": "SheridanLife Radio",
       "source_url": "https://www.sheridanliferadio.ca/events",
-      "last_attempt": "2026-11-25T20:27:20+00:00",
-      "last_success": "2026-11-25T20:27:20+00:00",
+      "last_attempt": "2026-11-26T20:06:44+00:00",
+      "last_success": "2026-11-26T20:06:44+00:00",
       "status": "ok",
       "error": null,
       "count": 5
     }
   },
-  "count": 30,
+  "count": 31,
   "events": [
     {
       "id": "sheridan-navigating-osap-winter",
@@ -112,210 +112,6 @@
       "time": "1:00 PM",
       "venue": "Online",
       "time_24h": "13:00"
-    },
-    {
-      "id": "edge-thrive-pitch-and-marketplace-tickets-2004718262288",
-      "source": "edge",
-      "source_name": "EDGE",
-      "source_url": "https://www.eventbrite.ca/o/edge-13162231152",
-      "start_date": "2026-11-25",
-      "end_date": "2026-11-25",
-      "title": "Thrive Pitch and Marketplace",
-      "url": "https://www.eventbrite.ca/e/thrive-pitch-and-marketplace-tickets-2004718262288",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197775122%2F205732746396%2F1%2Foriginal.20261111-160533?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0556e7ae701d7b82cb2450469af158a9",
-      "list_date_box": {
-        "month": "Nov",
-        "day": "25"
-      },
-      "excerpt": "Watch your peers pitch their business plans, discover products and services created by Sheridan students, and win exciting gift cards!",
-      "last_occurrence_ends_at": "2026-11-25T18:30:00+00:00",
-      "occurrences": [
-        {
-          "date": "2026-11-25",
-          "date_text": "Wednesday, November 25, 2026",
-          "time_12h": "11:00 AM",
-          "time_24h": "11:00"
-        }
-      ],
-      "address": {
-        "venue": "Sheridan College - Hazel McCallion Campus, Room no. C506",
-        "lines": [
-          "Sheridan College - Hazel McCallion Campus, Room no. C506",
-          "4226 Duke of York Boulevard, Mississauga, ON L5B 0G5"
-        ],
-        "map_url": "http://maps.google.com?q=43.5919223,-79.64854389999999"
-      },
-      "categories": [
-        "FREE"
-      ],
-      "tags": [
-        "Business & Professional",
-        "Seminar or Talk"
-      ],
-      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Thrive%20Pitch%20and%20Marketplace&dates=20261125T160000Z/20261125T183000Z&location=Sheridan%20College%20-%20Hazel%20McCallion%20Campus%2C%20Room%20no.%20C506%2C%204226%20Duke%20of%20York%20Boulevard%2C%20Mississauga%2C%20ON%20L5B%200G5",
-      "ics_url": null,
-      "description": "This is an in-person event for Sheridan students and recent graduates.\nCelebrate innovation at the Thrive pitch competition & student marketplace!\nJoin us for an inspiring in-person event where Sheridan students participating in Thrive pitch their businesses and compete for top prizes!\nThrive is EDGE’s signature entrepreneurship program for students developing their business ideas and launching their ventures. Your peers have been working hard for the past 7 weeks, and now they’re ready to pitch their ventures to a panel of industry experts.\nAt the event, explore the marketplace where you can discover unique products and services created by Sheridan student entrepreneurs. Support student-led ventures, network with peers, and win exciting gift cards! Whether you’re curious about entrepreneurship, looking to network or interested in joining the next cohort of Thrive, this event is for you!\nWhy should you attend?\nYou will watch student entrepreneurs pitch their ventures and learn what makes a strong business pitch.\nYou will expand your professional network by connecting with peers, industry professionals, and potential mentors in an energetic, startup-focused environment.\nYou’ll meet the Sheridan EDGE team, learn about the Thrive entrepreneurship program, and all the resources available to students for free.\nWho Should Attend?\nAll Sheridan students\nStudents interested in learning about entrepreneurship\nAspiring student entrepreneurs\nHosts\nSheridan EDGE\nEDGE is a vibrant community of people who believe entrepreneurship can create lasting change in society. It’s also a hub for impact entrepreneurs to grow their ventures, collaborate and develop new skills. Impact entrepreneurs, talented students, experienced faculty and like-minded community and industry collaborators work together at EDGE to amplify social and economic impact. We’re an integral part of Sheridan’s Academic & Industry Integrations (aii) division that connects education and industry to empower learner success, strengthen partnerships and advance academic excellence. Visit https://edge.sheridancollege.ca\nDisclaimer\nImportant Notes\nThis is a free event. Spots are limited. Register now to save your spot!\nIf you require any accommodation to register for or to ensure your full participation in this event, please let us know at edge.students@sheridancollege.ca\nMedia Consent:\nPhotography and video recordings may be taken during this event. Your image may be used in printed and electronic publications for promotional and educational purposes and may be made available to the media and other third parties or published on the Internet. By registering for any of our events/programs, you understand and acknowledge that your image may be taken and used at our discretion. If you have concerns about your image being used for these purposes, please speak to one of the organizers.\nMore Programs and Events\nTo stay in the loop, sign up for our newsletter.",
-      "eventbrite_id": "2004718262288",
-      "is_online": false,
-      "is_cancelled": false,
-      "price": "Free",
-      "sales_status": "Sold out",
-      "month": "Nov",
-      "day": "25",
-      "time": "11:00 AM",
-      "venue": "Sheridan College - Hazel McCallion Campus, Room no. C506",
-      "time_24h": "11:00"
-    },
-    {
-      "id": "radio-slr-volunteer-meeting-2026-11-25",
-      "source": "radio",
-      "source_name": "SheridanLife Radio",
-      "source_url": "https://www.sheridanliferadio.ca/events",
-      "start_date": "2026-11-25",
-      "end_date": "2026-11-25",
-      "title": "SLR Volunteer Meeting",
-      "url": "https://www.sheridanliferadio.ca/events",
-      "image_url": null,
-      "list_date_box": {
-        "month": "Nov",
-        "day": "25"
-      },
-      "excerpt": "Hey Sheridan! Come and check us out at our weekly volunteer meeting! We're open to all, no experience or sign-up required! Pop in, meet the team, learn about podcasting and radio, or pitch a new…",
-      "last_occurrence_ends_at": "2026-11-25T18:00:00+00:00",
-      "occurrences": [
-        {
-          "date": "2026-11-25",
-          "date_text": "Wednesday, November 25, 2026",
-          "time_12h": "12:00 PM",
-          "time_24h": "12:00"
-        }
-      ],
-      "address": {
-        "venue": "Trafalgar Campus",
-        "lines": [
-          "Trafalgar Campus",
-          "1430 Trafalgar Rd, Ontario, ON L6H 2L1, Canada"
-        ],
-        "map_url": "http://maps.google.com?q=1430%20Trafalgar%20Rd%2C%20Ontario%2C%20ON%20L6H%202L1%2C%20Canada"
-      },
-      "categories": [],
-      "tags": [
-        "Trafalgar Campus"
-      ],
-      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=SLR%20Volunteer%20Meeting&dates=20261125T170000Z/20261125T180000Z&location=Trafalgar%20Campus%2C%201430%20Trafalgar%20Rd%2C%20Ontario%2C%20ON%20L6H%202L1%2C%20Canada",
-      "ics_url": "https://calendar.google.com/calendar/ical/032e2f554e4e3c99b91c6313aa763070ca45ad8f6af9cbcc1178962fa428103e%40group.calendar.google.com/public/basic.ics",
-      "description": "Hey Sheridan! Come and check us out at our weekly volunteer meeting! We're open to all, no experience or sign-up required! Pop in, meet the team, learn about podcasting and radio, or pitch a new show! Find more details in our Discord: https://discord.gg/WCvEauc8TB",
-      "is_online": false,
-      "month": "Nov",
-      "day": "25",
-      "time": "12:00 PM",
-      "venue": "Trafalgar Campus",
-      "time_24h": "12:00"
-    },
-    {
-      "id": "clubs-337646",
-      "source": "clubs",
-      "source_name": "Sheridan Clubs",
-      "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
-      "start_date": "2026-11-25",
-      "end_date": "2026-11-25",
-      "title": "November Movie Detox",
-      "url": "https://sheridancollege.campuslabs.ca/engage/event/337646",
-      "image_url": "https://static.campuslabsengage.com/discovery/images/events/social.jpg",
-      "list_date_box": {
-        "month": "Nov",
-        "day": "25"
-      },
-      "excerpt": "A relaxing movie drop in with snacks and drinks. We will be watching Into the Spiderverse.",
-      "last_occurrence_ends_at": "2026-11-25T23:00:00+00:00",
-      "occurrences": [
-        {
-          "date": "2026-11-25",
-          "date_text": "Wednesday, November 25, 2026",
-          "time_12h": "3:00 PM",
-          "time_24h": "15:00"
-        }
-      ],
-      "address": {
-        "venue": "Sheridan College - J208",
-        "lines": [
-          "Sheridan College - J208"
-        ],
-        "map_url": "http://maps.google.com?q=43.46906,-79.70004"
-      },
-      "categories": [
-        "Social"
-      ],
-      "tags": [
-        "Free Food",
-        "Experiential Design Association (Trafalgar)"
-      ],
-      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=November%20Movie%20Detox&dates=20261125T200000Z/20261125T230000Z&location=Sheridan%20College%20-%20J208",
-      "ics_url": null,
-      "description": "A relaxing movie drop in with snacks and drinks. We will be watching Into the Spiderverse.",
-      "engage_id": "337646",
-      "organizations": [
-        "Experiential Design Association (Trafalgar)"
-      ],
-      "rsvp_total": 2,
-      "is_online": false,
-      "month": "Nov",
-      "day": "25",
-      "time": "3:00 PM",
-      "venue": "Sheridan College - J208",
-      "time_24h": "15:00"
-    },
-    {
-      "id": "clubs-338108",
-      "source": "clubs",
-      "source_name": "Sheridan Clubs",
-      "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
-      "start_date": "2026-11-25",
-      "end_date": "2026-11-25",
-      "title": "Satsang@Sheridan",
-      "url": "https://sheridancollege.campuslabs.ca/engage/event/338108",
-      "image_url": "https://static.campuslabsengage.com/discovery/images/events/social.jpg",
-      "list_date_box": {
-        "month": "Nov",
-        "day": "25"
-      },
-      "excerpt": "November month gathering",
-      "last_occurrence_ends_at": "2026-11-26T03:00:00+00:00",
-      "occurrences": [
-        {
-          "date": "2026-11-25",
-          "date_text": "Wednesday, November 25, 2026",
-          "time_12h": "7:00 PM",
-          "time_24h": "19:00"
-        }
-      ],
-      "address": {
-        "venue": "Sheridan College Davis Campus",
-        "lines": [
-          "Sheridan College Davis Campus"
-        ],
-        "map_url": "http://maps.google.com?q=43.65599,-79.7372"
-      },
-      "categories": [
-        "Social"
-      ],
-      "tags": [
-        "Satsang (Davis)"
-      ],
-      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Satsang%40Sheridan&dates=20261126T000000Z/20261126T030000Z&location=Sheridan%20College%20Davis%20Campus",
-      "ics_url": null,
-      "description": "November month gathering",
-      "engage_id": "338108",
-      "organizations": [
-        "Satsang (Davis)"
-      ],
-      "rsvp_total": 0,
-      "is_online": false,
-      "month": "Nov",
-      "day": "25",
-      "time": "7:00 PM",
-      "venue": "Sheridan College Davis Campus",
-      "time_24h": "19:00"
     },
     {
       "id": "clubs-338282",
@@ -445,9 +241,9 @@
         }
       ],
       "address": {
-        "venue": "D207 at Sheridan College - Trafalgar Campus",
+        "venue": "G102 at Sheridan College - Trafalgar Campus",
         "lines": [
-          "D207 at Sheridan College - Trafalgar Campus"
+          "G102 at Sheridan College - Trafalgar Campus"
         ],
         "map_url": "http://maps.google.com?q=43.46906,-79.70004"
       },
@@ -460,7 +256,7 @@
         "ZINE CLUB (Trafalgar)",
         "The Fashion & Sewing Club (Trafalgar)"
       ],
-      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Zine%20Binding%20Workshop&dates=20261130T230000Z/20261201T020000Z&location=D207%20at%20Sheridan%20College%20-%20Trafalgar%20Campus",
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Zine%20Binding%20Workshop&dates=20261130T230000Z/20261201T020000Z&location=G102%20at%20Sheridan%20College%20-%20Trafalgar%20Campus",
       "ics_url": null,
       "description": "Come join Zine Club and The Fashion & Sewing Club in this mini-workshop on how to create a mini zine, and how to bind it together with sewing materials! Materials will be provided alongside snacks & drinks! Spots are first come, first serve.",
       "engage_id": "338513",
@@ -473,7 +269,7 @@
       "month": "Nov",
       "day": "30",
       "time": "6:00 PM",
-      "venue": "D207 at Sheridan College - Trafalgar Campus",
+      "venue": "G102 at Sheridan College - Trafalgar Campus",
       "time_24h": "18:00"
     },
     {
@@ -981,6 +777,63 @@
       "time_24h": "16:00"
     },
     {
+      "id": "clubs-338877",
+      "source": "clubs",
+      "source_name": "Sheridan Clubs",
+      "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-04",
+      "title": "Mindfully Yours!",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/338877",
+      "image_url": "https://se-images.campuslabs.ca/clink/images/4f147e6d-fb62-4eb8-854f-a8a907dc1261148c8382-8351-4fe7-b425-8ec68c1e03e8.png?preset=med-w",
+      "list_date_box": {
+        "month": "Dec",
+        "day": "4"
+      },
+      "excerpt": "Mindfully Yours 🌿 Fri, Dec 4 | 5 - 9 PM | Marquee Loft, Trafalgar Campus End the semester with a cozy night of mindful making, all free: • A journal to keep, with guided journaling • Build your own…",
+      "last_occurrence_ends_at": "2026-12-05T02:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-12-04",
+          "date_text": "Friday, December 4, 2026",
+          "time_12h": "5:00 PM",
+          "time_24h": "17:00"
+        }
+      ],
+      "address": {
+        "venue": "Marquee Loft",
+        "lines": [
+          "Marquee Loft"
+        ],
+        "map_url": "http://maps.google.com?q=Marquee%20Loft"
+      },
+      "categories": [
+        "Social",
+        "Workshop"
+      ],
+      "tags": [
+        "Free Food",
+        "Free Stuff",
+        "Women in Business and Technology (TRC)",
+        "Maker Lounge (Trafalgar)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Mindfully%20Yours%21&dates=20261204T220000Z/20261205T020000Z&location=Marquee%20Loft",
+      "ics_url": null,
+      "description": "Mindfully Yours 🌿 Fri, Dec 4 | 5 - 9 PM | Marquee Loft, Trafalgar Campus\nEnd the semester with a cozy night of mindful making, all free: • A journal to keep, with guided journaling • Build your own pipe cleaner tree • Hot chocolate bar • So many fun snacks!\nDrop in any time, no sign-up needed. Bring a friend!\nWomen in Business and Technology x Maker Lounge",
+      "engage_id": "338877",
+      "organizations": [
+        "Women in Business and Technology (TRC)",
+        "Maker Lounge (Trafalgar)"
+      ],
+      "rsvp_total": 0,
+      "is_online": false,
+      "month": "Dec",
+      "day": "4",
+      "time": "5:00 PM",
+      "venue": "Marquee Loft",
+      "time_24h": "17:00"
+    },
+    {
       "id": "theatre-company",
       "source": "theatre",
       "source_name": "Theatre Sheridan",
@@ -1197,6 +1050,62 @@
       "time_24h": "12:00"
     },
     {
+      "id": "clubs-338871",
+      "source": "clubs",
+      "source_name": "Sheridan Clubs",
+      "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
+      "start_date": "2026-12-10",
+      "end_date": "2026-12-10",
+      "title": "Landing an Interview",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/338871",
+      "image_url": "https://se-images.campuslabs.ca/clink/images/7b817ebc-b6eb-4709-bab4-904b9502b90d4dcd9e70-c156-4696-bd57-e8b1738abf72.png?preset=med-w",
+      "list_date_box": {
+        "month": "Dec",
+        "day": "10"
+      },
+      "excerpt": "Landing an Interview If you're a student worried about landing an internship or looking for a job currently this workshop is for you. Getting an interview is about more than having a good resume…",
+      "last_occurrence_ends_at": "2026-12-11T01:30:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-12-10",
+          "date_text": "Thursday, December 10, 2026",
+          "time_12h": "5:30 PM",
+          "time_24h": "17:30"
+        }
+      ],
+      "address": {
+        "venue": "The Marquee Loft",
+        "lines": [
+          "The Marquee Loft"
+        ],
+        "map_url": "http://maps.google.com?q=43.46844,-79.69782"
+      },
+      "categories": [
+        "Academic/Educational",
+        "Social",
+        "Workshop",
+        "Thoughtful Learning"
+      ],
+      "tags": [
+        "Free Food",
+        "Women in Business and Technology (TRC)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Landing%20an%20Interview&dates=20261210T223000Z/20261211T013000Z&location=The%20Marquee%20Loft",
+      "ics_url": null,
+      "description": "Landing an Interview\nIf you're a student worried about landing an internship or looking for a job currently this workshop is for you.\nGetting an interview is about more than having a good resume. It's about knowing where to find opportunities, how to make a good application and how to utilize networking and your connections to get your foot in the door!\nJoin us for a practical session on navigating the job application and networking process, tailored towards students pursuing opportunities in tech, design, and business.\nWe'll cover:\nFinding Opportunities\nApplying Strategically\nNetworking with Intention\nWhat Happens After You Apply?\nWe'll also share our personal experiences, practical tips, and examples from our own recruitment journeys to help you navigate the process with more confidence.\nWhether you're applying for your first internship or looking to land your next co-op, you'll leave with actionable strategies to make your next application count.",
+      "engage_id": "338871",
+      "organizations": [
+        "Women in Business and Technology (TRC)"
+      ],
+      "rsvp_total": 2,
+      "is_online": false,
+      "month": "Dec",
+      "day": "10",
+      "time": "5:30 PM",
+      "venue": "The Marquee Loft",
+      "time_24h": "17:30"
+    },
+    {
       "id": "ssu-ssu-presents-12th-annual-family-holiday-party-2026",
       "source": "ssu",
       "source_name": "SSU",
@@ -1293,6 +1202,58 @@
       "time_24h": "12:00"
     },
     {
+      "id": "clubs-338860",
+      "source": "clubs",
+      "source_name": "Sheridan Clubs",
+      "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
+      "start_date": "2026-12-17",
+      "end_date": "2026-12-17",
+      "title": "Face It's Fall 27 End of Term Movie & Cookie Decorating Event",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/338860",
+      "image_url": "https://se-images.campuslabs.ca/clink/images/a729cbb9-0fe8-40fc-ad29-9ab03e230513a02f21a2-9360-4ae7-bca9-6c557710bf27.png?preset=med-w",
+      "list_date_box": {
+        "month": "Dec",
+        "day": "17"
+      },
+      "excerpt": "Join us as we celebrate the end of the term and the holidays! We will gather for a time to socialize, decorate cookies, and watch a movie! We are looking forward to having you join!",
+      "last_occurrence_ends_at": "2026-12-17T19:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-12-17",
+          "date_text": "Thursday, December 17, 2026",
+          "time_12h": "11:00 AM",
+          "time_24h": "11:00"
+        }
+      ],
+      "address": {
+        "venue": "Clubs Room - HMC C202",
+        "lines": [
+          "Clubs Room - HMC C202"
+        ],
+        "map_url": "http://maps.google.com?q=Clubs%20Room%20-%20HMC%20C202"
+      },
+      "categories": [
+        "Social"
+      ],
+      "tags": [
+        "Face It (HMC)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Face%20It%27s%20Fall%2027%20End%20of%20Term%20Movie%20%26%20Cookie%20Decorating%20Event&dates=20261217T160000Z/20261217T190000Z&location=Clubs%20Room%20-%20HMC%20C202",
+      "ics_url": null,
+      "description": "Join us as we celebrate the end of the term and the holidays! We will gather for a time to socialize, decorate cookies, and watch a movie! We are looking forward to having you join!",
+      "engage_id": "338860",
+      "organizations": [
+        "Face It (HMC)"
+      ],
+      "rsvp_total": 0,
+      "is_online": false,
+      "month": "Dec",
+      "day": "17",
+      "time": "11:00 AM",
+      "venue": "Clubs Room - HMC C202",
+      "time_24h": "11:00"
+    },
+    {
       "id": "clubs-338695",
       "source": "clubs",
       "source_name": "Sheridan Clubs",
@@ -1340,7 +1301,7 @@
       "organizations": [
         "Sheridan Filipino Student Association (Trafalgar)"
       ],
-      "rsvp_total": 3,
+      "rsvp_total": 4,
       "is_online": false,
       "month": "Dec",
       "day": "18",
@@ -1401,6 +1362,110 @@
       "time": "5:30 PM",
       "venue": "Sheridan College Davis Campus",
       "time_24h": "17:30"
+    },
+    {
+      "id": "theatre-festive-sing-along",
+      "source": "theatre",
+      "source_name": "Theatre Sheridan",
+      "source_url": "https://www.sheridancollege.ca/theatre/whats-on",
+      "start_date": "2026-12-19",
+      "end_date": "2026-12-20",
+      "title": "Festive Sing-Along",
+      "url": "https://www.sheridancollege.ca/theatre/whats-on/festive-sing-along",
+      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/theatre-sheridan/whats-on/2026-27/festive-sing-along.jpg?rev=e9438b67f3ba4508acd57886e5cc959d",
+      "list_date_box": {
+        "month": "Dec",
+        "day": "19"
+      },
+      "excerpt": "Gather your family, invite your friends, and join us for a little holiday cheer at Theatre Sheridan’s Festive Sing-Along!",
+      "last_occurrence_ends_at": "2026-12-21T04:59:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-12-19",
+          "date_text": "Saturday, December 19, 2026",
+          "time_12h": null,
+          "time_24h": null
+        },
+        {
+          "date": "2026-12-20",
+          "date_text": "Sunday, December 20, 2026",
+          "time_12h": null,
+          "time_24h": null
+        }
+      ],
+      "address": {
+        "venue": "Macdonald Heaslip Hall",
+        "lines": [
+          "Macdonald Heaslip Hall",
+          "Trafalgar Campus",
+          "1430 Trafalgar Road, Oakville, ON"
+        ],
+        "map_url": "http://maps.google.com?q=Macdonald%20Heaslip%20Hall%2C%201430%20Trafalgar%20Road%2C%20Oakville%2C%20ON"
+      },
+      "categories": [
+        "Arts",
+        "Theatre"
+      ],
+      "tags": [
+        "Trafalgar Campus"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Festive%20Sing-Along&dates=20261219T050000Z/20261221T045900Z&location=Macdonald%20Heaslip%20Hall%2C%20Trafalgar%20Campus%2C%201430%20Trafalgar%20Road%2C%20Oakville%2C%20ON",
+      "ics_url": null,
+      "description": "Celebrate the season with Theatre Sheridan!\nGather your family, invite your friends, and join us for a little holiday cheer at Theatre Sheridan’s Festive Sing-Along!\nDates Saturday, December 19, 2026 at 6:30 p.m. Sunday, December 20, 2026 at 11:00 a.m. and 2:30 p.m.\nLocation Macdonald Heaslip Hall, Sheridan College, Trafalgar Campus\nPrices Adults: $30 Senior/Student/Youth: $15\nHosted by Andrew Penner and featuring talented students from Theatre Sheridan, this special event brings everyone together to sing along to some of your favourite holiday classics. Come share in the music, laughter, and festive spirit. We can’t wait to celebrate with you!",
+      "price": "$18–$33 + fees",
+      "tickets_url": "https://secure1.tixhub.com/sheridan/online/b_otix?cboPerformances=525&cboEvent=133&bmultiple=1&width=1394",
+      "is_online": false,
+      "month": "Dec",
+      "day": "19",
+      "time": null,
+      "venue": "Macdonald Heaslip Hall",
+      "time_24h": null
+    },
+    {
+      "id": "radio-slr-volunteer-meeting-2026-12-23",
+      "source": "radio",
+      "source_name": "SheridanLife Radio",
+      "source_url": "https://www.sheridanliferadio.ca/events",
+      "start_date": "2026-12-23",
+      "end_date": "2026-12-23",
+      "title": "SLR Volunteer Meeting",
+      "url": "https://www.sheridanliferadio.ca/events",
+      "image_url": null,
+      "list_date_box": {
+        "month": "Dec",
+        "day": "23"
+      },
+      "excerpt": "Hey Sheridan! Come and check us out at our weekly volunteer meeting! We're open to all, no experience or sign-up required! Pop in, meet the team, learn about podcasting and radio, or pitch a new…",
+      "last_occurrence_ends_at": "2026-12-23T18:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-12-23",
+          "date_text": "Wednesday, December 23, 2026",
+          "time_12h": "12:00 PM",
+          "time_24h": "12:00"
+        }
+      ],
+      "address": {
+        "venue": "Trafalgar Campus",
+        "lines": [
+          "Trafalgar Campus",
+          "1430 Trafalgar Rd, Ontario, ON L6H 2L1, Canada"
+        ],
+        "map_url": "http://maps.google.com?q=1430%20Trafalgar%20Rd%2C%20Ontario%2C%20ON%20L6H%202L1%2C%20Canada"
+      },
+      "categories": [],
+      "tags": [
+        "Trafalgar Campus"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=SLR%20Volunteer%20Meeting&dates=20261223T170000Z/20261223T180000Z&location=Trafalgar%20Campus%2C%201430%20Trafalgar%20Rd%2C%20Ontario%2C%20ON%20L6H%202L1%2C%20Canada",
+      "ics_url": "https://calendar.google.com/calendar/ical/032e2f554e4e3c99b91c6313aa763070ca45ad8f6af9cbcc1178962fa428103e%40group.calendar.google.com/public/basic.ics",
+      "description": "Hey Sheridan! Come and check us out at our weekly volunteer meeting! We're open to all, no experience or sign-up required! Pop in, meet the team, learn about podcasting and radio, or pitch a new show! Find more details in our Discord: https://discord.gg/WCvEauc8TB",
+      "is_online": false,
+      "month": "Dec",
+      "day": "23",
+      "time": "12:00 PM",
+      "venue": "Trafalgar Campus",
+      "time_24h": "12:00"
     },
     {
       "id": "theatre-adventures-roderick-random",

@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-26T20:06:44+00:00",
-  "generated_at": "2026-11-26T20:06:44+00:00",
+  "last_updated": "2026-11-27T19:53:59+00:00",
+  "generated_at": "2026-11-27T19:53:59+00:00",
   "sources": {
     "ssu": {
       "name": "SSU",
       "source_url": "https://www.thessu.ca/events",
-      "last_attempt": "2026-11-26T20:06:44+00:00",
-      "last_success": "2026-11-26T20:06:44+00:00",
+      "last_attempt": "2026-11-27T19:53:59+00:00",
+      "last_success": "2026-11-27T19:53:59+00:00",
       "status": "ok",
       "error": null,
       "count": 5
@@ -15,17 +15,17 @@
     "clubs": {
       "name": "Sheridan Clubs",
       "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
-      "last_attempt": "2026-11-26T20:06:44+00:00",
-      "last_success": "2026-11-26T20:06:44+00:00",
+      "last_attempt": "2026-11-27T19:53:59+00:00",
+      "last_success": "2026-11-27T19:53:59+00:00",
       "status": "ok",
       "error": null,
-      "count": 13
+      "count": 14
     },
     "edge": {
       "name": "EDGE",
       "source_url": "https://www.eventbrite.ca/o/edge-13162231152",
-      "last_attempt": "2026-11-26T20:06:44+00:00",
-      "last_success": "2026-11-26T20:06:44+00:00",
+      "last_attempt": "2026-11-27T19:53:59+00:00",
+      "last_success": "2026-11-27T19:53:59+00:00",
       "status": "ok",
       "error": null,
       "count": 0
@@ -33,8 +33,8 @@
     "sheridan": {
       "name": "Sheridan College",
       "source_url": "https://www.sheridancollege.ca/events",
-      "last_attempt": "2026-11-26T20:06:44+00:00",
-      "last_success": "2026-11-26T20:06:44+00:00",
+      "last_attempt": "2026-11-27T19:53:59+00:00",
+      "last_success": "2026-11-27T19:53:59+00:00",
       "status": "ok",
       "error": null,
       "count": 1
@@ -42,8 +42,8 @@
     "theatre": {
       "name": "Theatre Sheridan",
       "source_url": "https://www.sheridancollege.ca/theatre/whats-on",
-      "last_attempt": "2026-11-26T20:06:44+00:00",
-      "last_success": "2026-11-26T20:06:44+00:00",
+      "last_attempt": "2026-11-27T19:53:59+00:00",
+      "last_success": "2026-11-27T19:53:59+00:00",
       "status": "ok",
       "error": null,
       "count": 7
@@ -51,14 +51,14 @@
     "radio": {
       "name": "SheridanLife Radio",
       "source_url": "https://www.sheridanliferadio.ca/events",
-      "last_attempt": "2026-11-26T20:06:44+00:00",
-      "last_success": "2026-11-26T20:06:44+00:00",
+      "last_attempt": "2026-11-27T19:53:59+00:00",
+      "last_success": "2026-11-27T19:53:59+00:00",
       "status": "ok",
       "error": null,
       "count": 5
     }
   },
-  "count": 31,
+  "count": 32,
   "events": [
     {
       "id": "sheridan-navigating-osap-winter",
@@ -264,7 +264,7 @@
         "ZINE CLUB (Trafalgar)",
         "The Fashion & Sewing Club (Trafalgar)"
       ],
-      "rsvp_total": 1,
+      "rsvp_total": 2,
       "is_online": false,
       "month": "Nov",
       "day": "30",
@@ -768,13 +768,66 @@
       "organizations": [
         "Creative Technologies Club (Trafalgar)"
       ],
-      "rsvp_total": 11,
+      "rsvp_total": 12,
       "is_online": false,
       "month": "Dec",
       "day": "4",
       "time": "4:00 PM",
       "venue": "Trafalgar Campus",
       "time_24h": "16:00"
+    },
+    {
+      "id": "clubs-338959",
+      "source": "clubs",
+      "source_name": "Sheridan Clubs",
+      "source_url": "https://sheridancollege.campuslabs.ca/engage/events",
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-04",
+      "title": "Island Vibes: Karaoke & Dance Night",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/338959",
+      "image_url": "https://se-images.campuslabs.ca/clink/images/36a773d6-7b18-4ac0-8d42-7da2e1cbb2719717a0c1-2a1a-4b5f-bb30-841c72c86ac2.png?preset=med-w",
+      "list_date_box": {
+        "month": "Dec",
+        "day": "4"
+      },
+      "excerpt": "Ready for a night of music, games, and fun? Come join the Sheridan Caribbean Students Association for our K araoke & Dance Night! Whether you love singing or just want to enjoy some friendly company…",
+      "last_occurrence_ends_at": "2026-12-05T01:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-12-04",
+          "date_text": "Friday, December 4, 2026",
+          "time_12h": "5:00 PM",
+          "time_24h": "17:00"
+        }
+      ],
+      "address": {
+        "venue": "Davis Campus, Room A213",
+        "lines": [
+          "Davis Campus, Room A213"
+        ],
+        "map_url": "http://maps.google.com?q=43.65534,-79.73834"
+      },
+      "categories": [
+        "Social"
+      ],
+      "tags": [
+        "Free Food",
+        "The Sheridan Caribbean Students Association (All Campus)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Island%20Vibes%3A%20Karaoke%20%26%20Dance%20Night&dates=20261204T220000Z/20261205T010000Z&location=Davis%20Campus%2C%20Room%20A213",
+      "ics_url": null,
+      "description": "Ready for a night of music, games, and fun? Come join the Sheridan Caribbean Students Association for our K araoke & Dance Night! Whether you love singing or just want to enjoy some friendly company, there is something for everyone. Come sing your favorite songs, dance your heart out , meet new people, and enjoy a fun evening with other students. Everyone is welcome!",
+      "engage_id": "338959",
+      "organizations": [
+        "The Sheridan Caribbean Students Association (All Campus)"
+      ],
+      "rsvp_total": 0,
+      "is_online": false,
+      "month": "Dec",
+      "day": "4",
+      "time": "5:00 PM",
+      "venue": "Davis Campus, Room A213",
+      "time_24h": "17:00"
     },
     {
       "id": "clubs-338877",
@@ -825,7 +878,7 @@
         "Women in Business and Technology (TRC)",
         "Maker Lounge (Trafalgar)"
       ],
-      "rsvp_total": 0,
+      "rsvp_total": 1,
       "is_online": false,
       "month": "Dec",
       "day": "4",
